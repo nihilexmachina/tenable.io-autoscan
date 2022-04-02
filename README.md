@@ -1,4 +1,4 @@
-# tenable.io-autoscan
+# tenable.io-autoscan.py
 Python script to manage Tenable.io assets first agent scan.
 
 ### Purpose
