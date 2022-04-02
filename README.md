@@ -23,7 +23,6 @@ sys
 #### Script parameters
 You **MUST** configure the API keys either through dotenv (as specified in line 29 in the script) OR manually (as specified in line 30 in the script). For more information regarding initial API setup, please refer to the official documentation contained here -> [📖](https://developer.tenable.com/docs/introduction-to-pytenable)  
 You **MUST** configure the target_group variable. Replace the XXXXX with whatever group you want to put the agents that never have been scanned. You can extract the group ID from the browser's URL when you're managing the group that you want to use in Tenable.io.  
-#### Tenable.io settings
 ### Usage
 Simply enough, execute one of the following:
 ```
