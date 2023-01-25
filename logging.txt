@@ -1,5 +1,6 @@
 #two methods for logging
-
+#these could be placed anywhere at the top of your script
+#OR could throw some more flags into the script -might work on that later 
 
 #log to file only
 
