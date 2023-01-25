@@ -1,0 +1,26 @@
+#two methods for logging
+
+
+#log to file only
+
+import logging
+logFilePath = "logs/default.log"
+logLevel = logging.DEBUG
+logging.basicConfig(format='%(asctime)s - %(threadName)s - %(funcName)s  - %(levelname)-8s %(message)s',filename=logFilePath,filemode='a',level=logLevel)
+logging.debug("Logging is configured - Log Level %s , Log File: %s",str(logLevel),logFilePath)
+
+
+
+#log to file and stdout
+
+import logging
+logFilePath = "logs/default.log"
+logLevel = logging.DEBUG
+formatStr = '%(asctime)s - %(threadName)s - %(funcName)s  - %(levelname)-8s %(message)s'
+logging.basicConfig(format=formatStr,filename=logFilePath,filemode='a',level=logLevel)
+formatter = logging.Formatter(formatStr)
+console = logging.StreamHandler()
+console.setLevel(logLevel)
+console.setFormatter(formatter)
+logging.getLogger('').addHandler(console)
+logging.debug("Logging is configured - Log Level %s , Log File: %s",str(logLevel),logFilePath)
