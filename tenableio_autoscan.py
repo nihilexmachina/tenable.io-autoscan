@@ -9,7 +9,7 @@
 #Add argument-based selector;Done;02-12-2021;Y
 #Basic error handling;Done;03-12-2021;Y
 #Additional If logic;Done;10-12-2021;Y
-#Logging capabilities;N/A;xx-xx-xxxx;N
+#Logging capabilities;WIP;01-26-2023;N
 
 ########
 # Lib  #
@@ -23,17 +23,27 @@ import argparse
 from tenable.io import TenableIO
 #load sys module
 import sys
+
+#########
+#logging#
+#########
+import logging
+logFilePath = "/Users/ninja/github/tenable.io-autoscan/logs/log.log"
+logLevel = logging.DEBUG
+logging.basicConfig(format='%(asctime)s - %(threadName)s - %(funcName)s  - %(levelname)-8s %(message)s',filename=logFilePath,filemode='a',level=logLevel)
+logging.debug("Logging is configured - Log Level %s , Log File: %s",str(logLevel),logFilePath)
+
 ########
 # Vars #
 ########
-tio = TenableIO() # [1] Grabs API Keys automatically from env
+tio = TenableIO() # [1] Grabs API Keys and target_group automatically from env
 #tio = TenableIO('TIO_ACCESS_KEY', 'TIO_SECRET_KEY') # [2]
 full_list = []
 list_never_scanned = []
 list_scanned = []
 agent_count = None
 key = 'last_scanned'
-target_group = XXXXXX #REQUIRED! Group ID that contains not scanned agents.
+#target_group = XXXXXX #REQUIRED! Group ID that contains not scanned agents. # [2]
 
 #############
 # Functions #
