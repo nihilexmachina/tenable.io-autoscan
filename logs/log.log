@@ -1,0 +1,564 @@
+2023-01-28 11:32:32,884 - MainThread - <module>  - DEBUG    Logging is configured - Log Level 10 , Log File: /Users/ninja/github/tenable.io-autoscan/logs/log.log
+2023-01-28 11:32:32,889 - MainThread - _request  - DEBUG    {"method": "GET", "url": "https://cloud.tenable.com/filters/scans/agents", "params": {}, "body": {}}
+2023-01-28 11:32:32,898 - MainThread - _new_conn  - DEBUG    Starting new HTTPS connection (1): cloud.tenable.com:443
+2023-01-28 11:32:33,517 - MainThread - _make_request  - DEBUG    https://cloud.tenable.com:443 "GET /filters/scans/agents HTTP/1.1" 200 None
+2023-01-28 11:32:33,519 - MainThread - _request  - DEBUG    Request-UUID 4b650364dddbc930d3605c7184b3e8ba for https://cloud.tenable.com/filters/scans/agents
+2023-01-28 11:32:33,520 - MainThread - _request  - DEBUG    {"method": "GET", "url": "https://cloud.tenable.com/scanners/1/agents", "params": {"f": ["groups:eq:265114"], "limit": 50, "offset": 0}, "body": {}}
+2023-01-28 11:32:33,774 - MainThread - _make_request  - DEBUG    https://cloud.tenable.com:443 "GET /scanners/1/agents?f=groups%3Aeq%3A265114&limit=50&offset=0 HTTP/1.1" 200 628
+2023-01-28 11:32:33,774 - MainThread - _request  - DEBUG    Request-UUID f1afb4bfd5742164bdd55a996e72df28 for https://cloud.tenable.com/scanners/1/agents
+2023-01-28 11:32:33,774 - MainThread - _request  - DEBUG    {"method": "GET", "url": "https://cloud.tenable.com/scanners/1/agents/103975382", "params": {}, "body": {}}
+2023-01-28 11:32:39,283 - MainThread - _make_request  - DEBUG    https://cloud.tenable.com:443 "GET /scanners/1/agents/103975382 HTTP/1.1" 200 None
+2023-01-28 11:32:39,284 - MainThread - _request  - DEBUG    Request-UUID 7abbb58ceee1937b7cc058e5dcf45dee for https://cloud.tenable.com/scanners/1/agents/103975382
+2023-01-28 11:33:05,019 - MainThread - <module>  - DEBUG    Logging is configured - Log Level 10 , Log File: /Users/ninja/github/tenable.io-autoscan/logs/log.log
+2023-01-28 11:33:05,024 - MainThread - _request  - DEBUG    {"method": "GET", "url": "https://cloud.tenable.com/filters/scans/agents", "params": {}, "body": {}}
+2023-01-28 11:33:05,031 - MainThread - _new_conn  - DEBUG    Starting new HTTPS connection (1): cloud.tenable.com:443
+2023-01-28 11:33:05,595 - MainThread - _make_request  - DEBUG    https://cloud.tenable.com:443 "GET /filters/scans/agents HTTP/1.1" 200 None
+2023-01-28 11:33:05,597 - MainThread - _request  - DEBUG    Request-UUID 44c07e0cb50cbc8c38ab925f6b3507d9 for https://cloud.tenable.com/filters/scans/agents
+2023-01-28 11:33:05,597 - MainThread - _request  - DEBUG    {"method": "GET", "url": "https://cloud.tenable.com/scanners/1/agents", "params": {"f": ["groups:neq:265114"], "limit": 50, "offset": 0}, "body": {}}
+2023-01-28 11:33:05,902 - MainThread - _make_request  - DEBUG    https://cloud.tenable.com:443 "GET /scanners/1/agents?f=groups%3Aneq%3A265114&limit=50&offset=0 HTTP/1.1" 200 None
+2023-01-28 11:33:05,904 - MainThread - _request  - DEBUG    Request-UUID ddc917bfe63b5913d76143bb05ce9c12 for https://cloud.tenable.com/scanners/1/agents
+2023-01-28 11:33:05,904 - MainThread - _request  - DEBUG    {"method": "GET", "url": "https://cloud.tenable.com/scanners/1/agents", "params": {"f": ["groups:neq:265114"], "limit": 50, "offset": 50}, "body": {}}
+2023-01-28 11:33:09,901 - MainThread - _make_request  - DEBUG    https://cloud.tenable.com:443 "GET /scanners/1/agents?f=groups%3Aneq%3A265114&limit=50&offset=50 HTTP/1.1" 200 None
+2023-01-28 11:33:09,902 - MainThread - _request  - DEBUG    Request-UUID a0ecd770ccb1eb6f7ec832f25d5aac7e for https://cloud.tenable.com/scanners/1/agents
+2023-01-28 11:33:09,903 - MainThread - _request  - DEBUG    {"method": "GET", "url": "https://cloud.tenable.com/scanners/1/agents", "params": {"f": ["groups:neq:265114"], "limit": 50, "offset": 100}, "body": {}}
+2023-01-28 11:33:13,988 - MainThread - _make_request  - DEBUG    https://cloud.tenable.com:443 "GET /scanners/1/agents?f=groups%3Aneq%3A265114&limit=50&offset=100 HTTP/1.1" 200 None
+2023-01-28 11:33:13,989 - MainThread - _request  - DEBUG    Request-UUID d051466d18dbebd01e4021dff0022725 for https://cloud.tenable.com/scanners/1/agents
+2023-01-28 11:33:13,990 - MainThread - _request  - DEBUG    {"method": "GET", "url": "https://cloud.tenable.com/scanners/1/agents", "params": {"f": ["groups:neq:265114"], "limit": 50, "offset": 150}, "body": {}}
+2023-01-28 11:33:17,924 - MainThread - _make_request  - DEBUG    https://cloud.tenable.com:443 "GET /scanners/1/agents?f=groups%3Aneq%3A265114&limit=50&offset=150 HTTP/1.1" 200 None
+2023-01-28 11:33:17,925 - MainThread - _request  - DEBUG    Request-UUID 5a78cb2bac8662c43876ee6f9bf5c4e5 for https://cloud.tenable.com/scanners/1/agents
+2023-01-28 11:33:17,926 - MainThread - _request  - DEBUG    {"method": "GET", "url": "https://cloud.tenable.com/scanners/1/agents/103920421", "params": {}, "body": {}}
+2023-01-28 11:33:23,366 - MainThread - _make_request  - DEBUG    https://cloud.tenable.com:443 "GET /scanners/1/agents/103920421 HTTP/1.1" 200 None
+2023-01-28 11:33:23,367 - MainThread - _request  - DEBUG    Request-UUID bbf9af1126175e97b2b7eef3f80b6691 for https://cloud.tenable.com/scanners/1/agents/103920421
+2023-01-28 11:33:23,367 - MainThread - _request  - DEBUG    {"method": "GET", "url": "https://cloud.tenable.com/scanners/1/agents/103918090", "params": {}, "body": {}}
+2023-01-28 11:33:27,306 - MainThread - _make_request  - DEBUG    https://cloud.tenable.com:443 "GET /scanners/1/agents/103918090 HTTP/1.1" 200 None
+2023-01-28 11:33:27,307 - MainThread - _request  - DEBUG    Request-UUID 752a31f32c40587b9c62b94f0b5b20a3 for https://cloud.tenable.com/scanners/1/agents/103918090
+2023-01-28 11:33:27,307 - MainThread - _request  - DEBUG    {"method": "GET", "url": "https://cloud.tenable.com/scanners/1/agents/102871790", "params": {}, "body": {}}
+2023-01-28 11:33:31,302 - MainThread - _make_request  - DEBUG    https://cloud.tenable.com:443 "GET /scanners/1/agents/102871790 HTTP/1.1" 200 None
+2023-01-28 11:33:31,304 - MainThread - _request  - DEBUG    Request-UUID 74a3476c4e132da9bb6ecb6f01d0c39a for https://cloud.tenable.com/scanners/1/agents/102871790
+2023-01-28 11:33:31,304 - MainThread - _request  - DEBUG    {"method": "GET", "url": "https://cloud.tenable.com/scanners/1/agents/17302931", "params": {}, "body": {}}
+2023-01-28 11:33:35,307 - MainThread - _make_request  - DEBUG    https://cloud.tenable.com:443 "GET /scanners/1/agents/17302931 HTTP/1.1" 200 None
+2023-01-28 11:33:35,308 - MainThread - _request  - DEBUG    Request-UUID 034e115b6aab62867c3bae8fa2afcbb4 for https://cloud.tenable.com/scanners/1/agents/17302931
+2023-01-28 11:33:35,309 - MainThread - _request  - DEBUG    {"method": "GET", "url": "https://cloud.tenable.com/scanners/1/agents/17304432", "params": {}, "body": {}}
+2023-01-28 11:33:39,289 - MainThread - _make_request  - DEBUG    https://cloud.tenable.com:443 "GET /scanners/1/agents/17304432 HTTP/1.1" 200 None
+2023-01-28 11:33:39,291 - MainThread - _request  - DEBUG    Request-UUID a7508b02151f0517848d911050e7b444 for https://cloud.tenable.com/scanners/1/agents/17304432
+2023-01-28 11:33:39,291 - MainThread - _request  - DEBUG    {"method": "GET", "url": "https://cloud.tenable.com/scanners/1/agents/45984770", "params": {}, "body": {}}
+2023-01-28 11:33:43,285 - MainThread - _make_request  - DEBUG    https://cloud.tenable.com:443 "GET /scanners/1/agents/45984770 HTTP/1.1" 200 None
+2023-01-28 11:33:43,286 - MainThread - _request  - DEBUG    Request-UUID 1f19b947a97166a6baf18795bd444d7a for https://cloud.tenable.com/scanners/1/agents/45984770
+2023-01-28 11:33:43,286 - MainThread - _request  - DEBUG    {"method": "GET", "url": "https://cloud.tenable.com/scanners/1/agents/45987875", "params": {}, "body": {}}
+2023-01-28 11:33:47,380 - MainThread - _make_request  - DEBUG    https://cloud.tenable.com:443 "GET /scanners/1/agents/45987875 HTTP/1.1" 200 None
+2023-01-28 11:33:47,382 - MainThread - _request  - DEBUG    Request-UUID c9b6d71d96381133670a956a85fa67e0 for https://cloud.tenable.com/scanners/1/agents/45987875
+2023-01-28 11:33:47,382 - MainThread - _request  - DEBUG    {"method": "GET", "url": "https://cloud.tenable.com/scanners/1/agents/17305109", "params": {}, "body": {}}
+2023-01-28 11:33:51,370 - MainThread - _make_request  - DEBUG    https://cloud.tenable.com:443 "GET /scanners/1/agents/17305109 HTTP/1.1" 200 None
+2023-01-28 11:33:51,371 - MainThread - _request  - DEBUG    Request-UUID 36eea6ea99053463c71fec2229f12721 for https://cloud.tenable.com/scanners/1/agents/17305109
+2023-01-28 11:33:51,371 - MainThread - _request  - DEBUG    {"method": "GET", "url": "https://cloud.tenable.com/scanners/1/agents/17304848", "params": {}, "body": {}}
+2023-01-28 11:33:55,350 - MainThread - _make_request  - DEBUG    https://cloud.tenable.com:443 "GET /scanners/1/agents/17304848 HTTP/1.1" 200 None
+2023-01-28 11:33:55,351 - MainThread - _request  - DEBUG    Request-UUID 331c9dde5944cb72bb850f2fb366d6da for https://cloud.tenable.com/scanners/1/agents/17304848
+2023-01-28 11:33:55,351 - MainThread - _request  - DEBUG    {"method": "GET", "url": "https://cloud.tenable.com/scanners/1/agents/17304862", "params": {}, "body": {}}
+2023-01-28 11:33:59,301 - MainThread - _make_request  - DEBUG    https://cloud.tenable.com:443 "GET /scanners/1/agents/17304862 HTTP/1.1" 200 None
+2023-01-28 11:33:59,302 - MainThread - _request  - DEBUG    Request-UUID 68db5a1be56d229167e6c2f65e4d8784 for https://cloud.tenable.com/scanners/1/agents/17304862
+2023-01-28 11:33:59,303 - MainThread - _request  - DEBUG    {"method": "GET", "url": "https://cloud.tenable.com/scanners/1/agents/17304864", "params": {}, "body": {}}
+2023-01-28 11:34:03,267 - MainThread - _make_request  - DEBUG    https://cloud.tenable.com:443 "GET /scanners/1/agents/17304864 HTTP/1.1" 200 None
+2023-01-28 11:34:03,268 - MainThread - _request  - DEBUG    Request-UUID c84e4c391ad8008bca5e77d02b95d310 for https://cloud.tenable.com/scanners/1/agents/17304864
+2023-01-28 11:34:03,269 - MainThread - _request  - DEBUG    {"method": "GET", "url": "https://cloud.tenable.com/scanners/1/agents/45990818", "params": {}, "body": {}}
+2023-01-28 11:34:07,347 - MainThread - _make_request  - DEBUG    https://cloud.tenable.com:443 "GET /scanners/1/agents/45990818 HTTP/1.1" 200 None
+2023-01-28 11:34:07,348 - MainThread - _request  - DEBUG    Request-UUID 7d5c3c6b03b6038ed304564ebd055ecc for https://cloud.tenable.com/scanners/1/agents/45990818
+2023-01-28 11:34:07,348 - MainThread - _request  - DEBUG    {"method": "GET", "url": "https://cloud.tenable.com/scanners/1/agents/45984768", "params": {}, "body": {}}
+2023-01-28 11:34:11,340 - MainThread - _make_request  - DEBUG    https://cloud.tenable.com:443 "GET /scanners/1/agents/45984768 HTTP/1.1" 200 None
+2023-01-28 11:34:11,342 - MainThread - _request  - DEBUG    Request-UUID 55c044d682593b9e1d25e6499f49438e for https://cloud.tenable.com/scanners/1/agents/45984768
+2023-01-28 11:34:11,342 - MainThread - _request  - DEBUG    {"method": "GET", "url": "https://cloud.tenable.com/scanners/1/agents/45984773", "params": {}, "body": {}}
+2023-01-28 11:34:15,331 - MainThread - _make_request  - DEBUG    https://cloud.tenable.com:443 "GET /scanners/1/agents/45984773 HTTP/1.1" 200 None
+2023-01-28 11:34:15,332 - MainThread - _request  - DEBUG    Request-UUID 82e796fa715ee59eacf5b516d59ae4fd for https://cloud.tenable.com/scanners/1/agents/45984773
+2023-01-28 11:34:15,332 - MainThread - _request  - DEBUG    {"method": "GET", "url": "https://cloud.tenable.com/scanners/1/agents/45984778", "params": {}, "body": {}}
+2023-01-28 11:34:19,328 - MainThread - _make_request  - DEBUG    https://cloud.tenable.com:443 "GET /scanners/1/agents/45984778 HTTP/1.1" 200 None
+2023-01-28 11:34:19,329 - MainThread - _request  - DEBUG    Request-UUID f51d77e13152da874691b154ca4547bd for https://cloud.tenable.com/scanners/1/agents/45984778
+2023-01-28 11:34:19,329 - MainThread - _request  - DEBUG    {"method": "GET", "url": "https://cloud.tenable.com/scanners/1/agents/99916278", "params": {}, "body": {}}
+2023-01-28 11:34:23,276 - MainThread - _make_request  - DEBUG    https://cloud.tenable.com:443 "GET /scanners/1/agents/99916278 HTTP/1.1" 200 None
+2023-01-28 11:34:23,277 - MainThread - _request  - DEBUG    Request-UUID 554bb2b244be0d6b9cbcd4c4ace8a8c9 for https://cloud.tenable.com/scanners/1/agents/99916278
+2023-01-28 11:34:23,277 - MainThread - _request  - DEBUG    {"method": "GET", "url": "https://cloud.tenable.com/scanners/1/agents/16704694", "params": {}, "body": {}}
+2023-01-28 11:34:27,302 - MainThread - _make_request  - DEBUG    https://cloud.tenable.com:443 "GET /scanners/1/agents/16704694 HTTP/1.1" 200 None
+2023-01-28 11:34:27,303 - MainThread - _request  - DEBUG    Request-UUID 8296fd470a072f17aa7d5ac3e0c266ed for https://cloud.tenable.com/scanners/1/agents/16704694
+2023-01-28 11:34:27,304 - MainThread - _request  - DEBUG    {"method": "GET", "url": "https://cloud.tenable.com/scanners/1/agents/16714784", "params": {}, "body": {}}
+2023-01-28 11:34:31,330 - MainThread - _make_request  - DEBUG    https://cloud.tenable.com:443 "GET /scanners/1/agents/16714784 HTTP/1.1" 200 None
+2023-01-28 11:34:31,331 - MainThread - _request  - DEBUG    Request-UUID 9fbd7b04f8d1e8ad2cfed6f188071313 for https://cloud.tenable.com/scanners/1/agents/16714784
+2023-01-28 11:34:31,332 - MainThread - _request  - DEBUG    {"method": "GET", "url": "https://cloud.tenable.com/scanners/1/agents/16714788", "params": {}, "body": {}}
+2023-01-28 11:34:35,328 - MainThread - _make_request  - DEBUG    https://cloud.tenable.com:443 "GET /scanners/1/agents/16714788 HTTP/1.1" 200 None
+2023-01-28 11:34:35,330 - MainThread - _request  - DEBUG    Request-UUID 42dbc8ae97ec3d070f81a69ac85d3e57 for https://cloud.tenable.com/scanners/1/agents/16714788
+2023-01-28 11:34:35,330 - MainThread - _request  - DEBUG    {"method": "GET", "url": "https://cloud.tenable.com/scanners/1/agents/16715221", "params": {}, "body": {}}
+2023-01-28 11:34:39,307 - MainThread - _make_request  - DEBUG    https://cloud.tenable.com:443 "GET /scanners/1/agents/16715221 HTTP/1.1" 200 None
+2023-01-28 11:34:39,308 - MainThread - _request  - DEBUG    Request-UUID 7558ff8bc584898dc40d42ac2435fdd5 for https://cloud.tenable.com/scanners/1/agents/16715221
+2023-01-28 11:34:39,308 - MainThread - _request  - DEBUG    {"method": "GET", "url": "https://cloud.tenable.com/scanners/1/agents/100069201", "params": {}, "body": {}}
+2023-01-28 11:34:43,391 - MainThread - _make_request  - DEBUG    https://cloud.tenable.com:443 "GET /scanners/1/agents/100069201 HTTP/1.1" 200 None
+2023-01-28 11:34:43,393 - MainThread - _request  - DEBUG    Request-UUID 70b1418782fbc6a8a181e8ab933c078a for https://cloud.tenable.com/scanners/1/agents/100069201
+2023-01-28 11:34:43,393 - MainThread - _request  - DEBUG    {"method": "GET", "url": "https://cloud.tenable.com/scanners/1/agents/45976509", "params": {}, "body": {}}
+2023-01-28 11:34:47,290 - MainThread - _make_request  - DEBUG    https://cloud.tenable.com:443 "GET /scanners/1/agents/45976509 HTTP/1.1" 200 None
+2023-01-28 11:34:47,291 - MainThread - _request  - DEBUG    Request-UUID 7bdc1cb1fdcac415b2450c4f24a3ba11 for https://cloud.tenable.com/scanners/1/agents/45976509
+2023-01-28 11:34:47,291 - MainThread - _request  - DEBUG    {"method": "GET", "url": "https://cloud.tenable.com/scanners/1/agents/16923022", "params": {}, "body": {}}
+2023-01-28 11:34:51,379 - MainThread - _make_request  - DEBUG    https://cloud.tenable.com:443 "GET /scanners/1/agents/16923022 HTTP/1.1" 200 None
+2023-01-28 11:34:51,380 - MainThread - _request  - DEBUG    Request-UUID 6bc39f52b0d095d396a3c18f187b6a56 for https://cloud.tenable.com/scanners/1/agents/16923022
+2023-01-28 11:34:51,380 - MainThread - _request  - DEBUG    {"method": "GET", "url": "https://cloud.tenable.com/scanners/1/agents/100749111", "params": {}, "body": {}}
+2023-01-28 11:34:55,291 - MainThread - _make_request  - DEBUG    https://cloud.tenable.com:443 "GET /scanners/1/agents/100749111 HTTP/1.1" 200 None
+2023-01-28 11:34:55,292 - MainThread - _request  - DEBUG    Request-UUID 56bf2222798b3f472a5226ebe129ab92 for https://cloud.tenable.com/scanners/1/agents/100749111
+2023-01-28 11:34:55,293 - MainThread - _request  - DEBUG    {"method": "GET", "url": "https://cloud.tenable.com/scanners/1/agents/39786690", "params": {}, "body": {}}
+2023-01-28 11:34:59,364 - MainThread - _make_request  - DEBUG    https://cloud.tenable.com:443 "GET /scanners/1/agents/39786690 HTTP/1.1" 200 None
+2023-01-28 11:34:59,366 - MainThread - _request  - DEBUG    Request-UUID 44b880a2f0481ed3e3477fd36f5e35c3 for https://cloud.tenable.com/scanners/1/agents/39786690
+2023-01-28 11:34:59,366 - MainThread - _request  - DEBUG    {"method": "GET", "url": "https://cloud.tenable.com/scanners/1/agents/16920246", "params": {}, "body": {}}
+2023-01-28 11:35:03,360 - MainThread - _make_request  - DEBUG    https://cloud.tenable.com:443 "GET /scanners/1/agents/16920246 HTTP/1.1" 200 None
+2023-01-28 11:35:03,361 - MainThread - _request  - DEBUG    Request-UUID d3c506eef8d151e9525f92a75877ad37 for https://cloud.tenable.com/scanners/1/agents/16920246
+2023-01-28 11:35:03,361 - MainThread - _request  - DEBUG    {"method": "GET", "url": "https://cloud.tenable.com/scanners/1/agents/45988817", "params": {}, "body": {}}
+2023-01-28 11:35:07,353 - MainThread - _make_request  - DEBUG    https://cloud.tenable.com:443 "GET /scanners/1/agents/45988817 HTTP/1.1" 200 None
+2023-01-28 11:35:07,355 - MainThread - _request  - DEBUG    Request-UUID 00011dcf72595733339ec8e7c90952d2 for https://cloud.tenable.com/scanners/1/agents/45988817
+2023-01-28 11:35:07,355 - MainThread - _request  - DEBUG    {"method": "GET", "url": "https://cloud.tenable.com/scanners/1/agents/16925653", "params": {}, "body": {}}
+2023-01-28 11:35:11,348 - MainThread - _make_request  - DEBUG    https://cloud.tenable.com:443 "GET /scanners/1/agents/16925653 HTTP/1.1" 200 None
+2023-01-28 11:35:11,349 - MainThread - _request  - DEBUG    Request-UUID 6709fb1134748677fdb99e78c52089d6 for https://cloud.tenable.com/scanners/1/agents/16925653
+2023-01-28 11:35:11,350 - MainThread - _request  - DEBUG    {"method": "GET", "url": "https://cloud.tenable.com/scanners/1/agents/16923160", "params": {}, "body": {}}
+2023-01-28 11:35:15,336 - MainThread - _make_request  - DEBUG    https://cloud.tenable.com:443 "GET /scanners/1/agents/16923160 HTTP/1.1" 200 None
+2023-01-28 11:35:15,337 - MainThread - _request  - DEBUG    Request-UUID eed8a89d7b24ebcd3a829a7f74c72e48 for https://cloud.tenable.com/scanners/1/agents/16923160
+2023-01-28 11:35:15,338 - MainThread - _request  - DEBUG    {"method": "GET", "url": "https://cloud.tenable.com/scanners/1/agents/16920262", "params": {}, "body": {}}
+2023-01-28 11:35:19,333 - MainThread - _make_request  - DEBUG    https://cloud.tenable.com:443 "GET /scanners/1/agents/16920262 HTTP/1.1" 200 None
+2023-01-28 11:35:19,334 - MainThread - _request  - DEBUG    Request-UUID 1a67f1284a635571f5c775529a597693 for https://cloud.tenable.com/scanners/1/agents/16920262
+2023-01-28 11:35:19,335 - MainThread - _request  - DEBUG    {"method": "GET", "url": "https://cloud.tenable.com/scanners/1/agents/16920983", "params": {}, "body": {}}
+2023-01-28 11:35:23,277 - MainThread - _make_request  - DEBUG    https://cloud.tenable.com:443 "GET /scanners/1/agents/16920983 HTTP/1.1" 200 None
+2023-01-28 11:35:23,279 - MainThread - _request  - DEBUG    Request-UUID c600a7c1a89da07e905fda593c58505f for https://cloud.tenable.com/scanners/1/agents/16920983
+2023-01-28 11:35:23,279 - MainThread - _request  - DEBUG    {"method": "GET", "url": "https://cloud.tenable.com/scanners/1/agents/45995367", "params": {}, "body": {}}
+2023-01-28 11:35:27,314 - MainThread - _make_request  - DEBUG    https://cloud.tenable.com:443 "GET /scanners/1/agents/45995367 HTTP/1.1" 200 None
+2023-01-28 11:35:27,315 - MainThread - _request  - DEBUG    Request-UUID 118df29f732ef365139bf2dc3dfe56e1 for https://cloud.tenable.com/scanners/1/agents/45995367
+2023-01-28 11:35:27,315 - MainThread - _request  - DEBUG    {"method": "GET", "url": "https://cloud.tenable.com/scanners/1/agents/49509744", "params": {}, "body": {}}
+2023-01-28 11:35:31,297 - MainThread - _make_request  - DEBUG    https://cloud.tenable.com:443 "GET /scanners/1/agents/49509744 HTTP/1.1" 200 None
+2023-01-28 11:35:31,298 - MainThread - _request  - DEBUG    Request-UUID 3a34af52c3a6f319647a0a9e0c93623a for https://cloud.tenable.com/scanners/1/agents/49509744
+2023-01-28 11:35:31,298 - MainThread - _request  - DEBUG    {"method": "GET", "url": "https://cloud.tenable.com/scanners/1/agents/16923459", "params": {}, "body": {}}
+2023-01-28 11:35:35,458 - MainThread - _make_request  - DEBUG    https://cloud.tenable.com:443 "GET /scanners/1/agents/16923459 HTTP/1.1" 200 None
+2023-01-28 11:35:35,459 - MainThread - _request  - DEBUG    Request-UUID 699c72486b6f94cc5990725052d62e1d for https://cloud.tenable.com/scanners/1/agents/16923459
+2023-01-28 11:35:35,459 - MainThread - _request  - DEBUG    {"method": "GET", "url": "https://cloud.tenable.com/scanners/1/agents/103918084", "params": {}, "body": {}}
+2023-01-28 11:35:39,321 - MainThread - _make_request  - DEBUG    https://cloud.tenable.com:443 "GET /scanners/1/agents/103918084 HTTP/1.1" 200 None
+2023-01-28 11:35:39,322 - MainThread - _request  - DEBUG    Request-UUID 993c40a24252eaf7179c859fcc75a1aa for https://cloud.tenable.com/scanners/1/agents/103918084
+2023-01-28 11:35:39,323 - MainThread - _request  - DEBUG    {"method": "GET", "url": "https://cloud.tenable.com/scanners/1/agents/53959992", "params": {}, "body": {}}
+2023-01-28 11:35:43,345 - MainThread - _make_request  - DEBUG    https://cloud.tenable.com:443 "GET /scanners/1/agents/53959992 HTTP/1.1" 200 None
+2023-01-28 11:35:43,346 - MainThread - _request  - DEBUG    Request-UUID 4adbd2e89129031a1279395583616297 for https://cloud.tenable.com/scanners/1/agents/53959992
+2023-01-28 11:35:43,346 - MainThread - _request  - DEBUG    {"method": "GET", "url": "https://cloud.tenable.com/scanners/1/agents/48061475", "params": {}, "body": {}}
+2023-01-28 11:35:47,392 - MainThread - _make_request  - DEBUG    https://cloud.tenable.com:443 "GET /scanners/1/agents/48061475 HTTP/1.1" 200 None
+2023-01-28 11:35:47,393 - MainThread - _request  - DEBUG    Request-UUID 40e5b26ee4b69820ccc9083f702b12ab for https://cloud.tenable.com/scanners/1/agents/48061475
+2023-01-28 11:35:47,393 - MainThread - _request  - DEBUG    {"method": "GET", "url": "https://cloud.tenable.com/scanners/1/agents/16922800", "params": {}, "body": {}}
+2023-01-28 11:35:51,371 - MainThread - _make_request  - DEBUG    https://cloud.tenable.com:443 "GET /scanners/1/agents/16922800 HTTP/1.1" 200 None
+2023-01-28 11:35:51,372 - MainThread - _request  - DEBUG    Request-UUID f2d2e92568f4447919d499fd97b840d3 for https://cloud.tenable.com/scanners/1/agents/16922800
+2023-01-28 11:35:51,372 - MainThread - _request  - DEBUG    {"method": "GET", "url": "https://cloud.tenable.com/scanners/1/agents/99476108", "params": {}, "body": {}}
+2023-01-28 11:35:55,380 - MainThread - _make_request  - DEBUG    https://cloud.tenable.com:443 "GET /scanners/1/agents/99476108 HTTP/1.1" 200 None
+2023-01-28 11:35:55,381 - MainThread - _request  - DEBUG    Request-UUID b3f8f1b76a37dc0e40d8fe68116c9771 for https://cloud.tenable.com/scanners/1/agents/99476108
+2023-01-28 11:35:55,381 - MainThread - _request  - DEBUG    {"method": "GET", "url": "https://cloud.tenable.com/scanners/1/agents/100748110", "params": {}, "body": {}}
+2023-01-28 11:35:59,373 - MainThread - _make_request  - DEBUG    https://cloud.tenable.com:443 "GET /scanners/1/agents/100748110 HTTP/1.1" 200 None
+2023-01-28 11:35:59,374 - MainThread - _request  - DEBUG    Request-UUID 20aed8191419323a76aed3422cc94b31 for https://cloud.tenable.com/scanners/1/agents/100748110
+2023-01-28 11:35:59,374 - MainThread - _request  - DEBUG    {"method": "GET", "url": "https://cloud.tenable.com/scanners/1/agents/16898600", "params": {}, "body": {}}
+2023-01-28 11:36:03,366 - MainThread - _make_request  - DEBUG    https://cloud.tenable.com:443 "GET /scanners/1/agents/16898600 HTTP/1.1" 200 None
+2023-01-28 11:36:03,367 - MainThread - _request  - DEBUG    Request-UUID c19e2c2fde54ecaf2418124bcecb1394 for https://cloud.tenable.com/scanners/1/agents/16898600
+2023-01-28 11:36:03,367 - MainThread - _request  - DEBUG    {"method": "GET", "url": "https://cloud.tenable.com/scanners/1/agents/103996102", "params": {}, "body": {}}
+2023-01-28 11:36:07,564 - MainThread - _make_request  - DEBUG    https://cloud.tenable.com:443 "GET /scanners/1/agents/103996102 HTTP/1.1" 200 None
+2023-01-28 11:36:07,565 - MainThread - _request  - DEBUG    Request-UUID 2d0758ed27c9bf19db48f4c4771dcf8e for https://cloud.tenable.com/scanners/1/agents/103996102
+2023-01-28 11:36:07,566 - MainThread - _request  - DEBUG    {"method": "GET", "url": "https://cloud.tenable.com/scanners/1/agents/53961029", "params": {}, "body": {}}
+2023-01-28 11:36:11,455 - MainThread - _make_request  - DEBUG    https://cloud.tenable.com:443 "GET /scanners/1/agents/53961029 HTTP/1.1" 200 None
+2023-01-28 11:36:11,456 - MainThread - _request  - DEBUG    Request-UUID 3e1ac3e5e5f559a59b506bd340b32b3f for https://cloud.tenable.com/scanners/1/agents/53961029
+2023-01-28 11:36:11,457 - MainThread - _request  - DEBUG    {"method": "GET", "url": "https://cloud.tenable.com/scanners/1/agents/45989208", "params": {}, "body": {}}
+2023-01-28 11:36:15,448 - MainThread - _make_request  - DEBUG    https://cloud.tenable.com:443 "GET /scanners/1/agents/45989208 HTTP/1.1" 200 None
+2023-01-28 11:36:15,449 - MainThread - _request  - DEBUG    Request-UUID bd64283a77bfc339fbf2dd209c727d05 for https://cloud.tenable.com/scanners/1/agents/45989208
+2023-01-28 11:36:15,449 - MainThread - _request  - DEBUG    {"method": "GET", "url": "https://cloud.tenable.com/scanners/1/agents/100065864", "params": {}, "body": {}}
+2023-01-28 11:36:19,443 - MainThread - _make_request  - DEBUG    https://cloud.tenable.com:443 "GET /scanners/1/agents/100065864 HTTP/1.1" 200 None
+2023-01-28 11:36:19,444 - MainThread - _request  - DEBUG    Request-UUID 1ca2caf08ea6435184e9fb60309ea57e for https://cloud.tenable.com/scanners/1/agents/100065864
+2023-01-28 11:36:19,444 - MainThread - _request  - DEBUG    {"method": "GET", "url": "https://cloud.tenable.com/scanners/1/agents/103918061", "params": {}, "body": {}}
+2023-01-28 11:36:23,364 - MainThread - _make_request  - DEBUG    https://cloud.tenable.com:443 "GET /scanners/1/agents/103918061 HTTP/1.1" 200 None
+2023-01-28 11:36:23,365 - MainThread - _request  - DEBUG    Request-UUID a56b0b9a5e43829c4af01c480a2b7616 for https://cloud.tenable.com/scanners/1/agents/103918061
+2023-01-28 11:36:23,365 - MainThread - _request  - DEBUG    {"method": "GET", "url": "https://cloud.tenable.com/scanners/1/agents/103918057", "params": {}, "body": {}}
+2023-01-28 11:36:27,352 - MainThread - _make_request  - DEBUG    https://cloud.tenable.com:443 "GET /scanners/1/agents/103918057 HTTP/1.1" 200 None
+2023-01-28 11:36:27,354 - MainThread - _request  - DEBUG    Request-UUID a6410dbf16dc1df70ca3ce2545212a08 for https://cloud.tenable.com/scanners/1/agents/103918057
+2023-01-28 11:36:27,354 - MainThread - _request  - DEBUG    {"method": "GET", "url": "https://cloud.tenable.com/scanners/1/agents/57136109", "params": {}, "body": {}}
+2023-01-28 11:36:31,413 - MainThread - _make_request  - DEBUG    https://cloud.tenable.com:443 "GET /scanners/1/agents/57136109 HTTP/1.1" 200 None
+2023-01-28 11:36:31,414 - MainThread - _request  - DEBUG    Request-UUID f4b17e8b038913c0b3ccbdd6ca68ffc3 for https://cloud.tenable.com/scanners/1/agents/57136109
+2023-01-28 11:36:31,415 - MainThread - _request  - DEBUG    {"method": "GET", "url": "https://cloud.tenable.com/scanners/1/agents/45965538", "params": {}, "body": {}}
+2023-01-28 11:36:35,417 - MainThread - _make_request  - DEBUG    https://cloud.tenable.com:443 "GET /scanners/1/agents/45965538 HTTP/1.1" 200 None
+2023-01-28 11:36:35,418 - MainThread - _request  - DEBUG    Request-UUID 5498596c1e04f9265cab28d4fd9c7ba2 for https://cloud.tenable.com/scanners/1/agents/45965538
+2023-01-28 11:36:35,418 - MainThread - _request  - DEBUG    {"method": "GET", "url": "https://cloud.tenable.com/scanners/1/agents/100067172", "params": {}, "body": {}}
+2023-01-28 11:36:39,411 - MainThread - _make_request  - DEBUG    https://cloud.tenable.com:443 "GET /scanners/1/agents/100067172 HTTP/1.1" 200 None
+2023-01-28 11:36:39,412 - MainThread - _request  - DEBUG    Request-UUID 0e6790083931950c7166587978d53423 for https://cloud.tenable.com/scanners/1/agents/100067172
+2023-01-28 11:36:39,412 - MainThread - _request  - DEBUG    {"method": "GET", "url": "https://cloud.tenable.com/scanners/1/agents/45970364", "params": {}, "body": {}}
+2023-01-28 11:36:43,404 - MainThread - _make_request  - DEBUG    https://cloud.tenable.com:443 "GET /scanners/1/agents/45970364 HTTP/1.1" 200 None
+2023-01-28 11:36:43,405 - MainThread - _request  - DEBUG    Request-UUID 621668d41456706f72918f70b71cd6c7 for https://cloud.tenable.com/scanners/1/agents/45970364
+2023-01-28 11:36:43,406 - MainThread - _request  - DEBUG    {"method": "GET", "url": "https://cloud.tenable.com/scanners/1/agents/45973891", "params": {}, "body": {}}
+2023-01-28 11:36:47,500 - MainThread - _make_request  - DEBUG    https://cloud.tenable.com:443 "GET /scanners/1/agents/45973891 HTTP/1.1" 200 None
+2023-01-28 11:36:47,501 - MainThread - _request  - DEBUG    Request-UUID 60710d0b2170f6d1a7b95419ee9e9687 for https://cloud.tenable.com/scanners/1/agents/45973891
+2023-01-28 11:36:47,501 - MainThread - _request  - DEBUG    {"method": "GET", "url": "https://cloud.tenable.com/scanners/1/agents/82843008", "params": {}, "body": {}}
+2023-01-28 11:36:51,391 - MainThread - _make_request  - DEBUG    https://cloud.tenable.com:443 "GET /scanners/1/agents/82843008 HTTP/1.1" 200 None
+2023-01-28 11:36:51,392 - MainThread - _request  - DEBUG    Request-UUID 7fe8911a9a1be663bdac8a5c637b589d for https://cloud.tenable.com/scanners/1/agents/82843008
+2023-01-28 11:36:51,393 - MainThread - _request  - DEBUG    {"method": "GET", "url": "https://cloud.tenable.com/scanners/1/agents/104076747", "params": {}, "body": {}}
+2023-01-28 11:36:55,366 - MainThread - _make_request  - DEBUG    https://cloud.tenable.com:443 "GET /scanners/1/agents/104076747 HTTP/1.1" 200 None
+2023-01-28 11:36:55,367 - MainThread - _request  - DEBUG    Request-UUID 062c044bb672e6c9b7b3788d94516a8d for https://cloud.tenable.com/scanners/1/agents/104076747
+2023-01-28 11:36:55,367 - MainThread - _request  - DEBUG    {"method": "GET", "url": "https://cloud.tenable.com/scanners/1/agents/103918060", "params": {}, "body": {}}
+2023-01-28 11:36:59,481 - MainThread - _make_request  - DEBUG    https://cloud.tenable.com:443 "GET /scanners/1/agents/103918060 HTTP/1.1" 200 None
+2023-01-28 11:36:59,483 - MainThread - _request  - DEBUG    Request-UUID 0c3632c16b25d36f2829c39435f80f93 for https://cloud.tenable.com/scanners/1/agents/103918060
+2023-01-28 11:36:59,483 - MainThread - _request  - DEBUG    {"method": "GET", "url": "https://cloud.tenable.com/scanners/1/agents/103918058", "params": {}, "body": {}}
+2023-01-28 11:37:03,489 - MainThread - _make_request  - DEBUG    https://cloud.tenable.com:443 "GET /scanners/1/agents/103918058 HTTP/1.1" 200 None
+2023-01-28 11:37:03,490 - MainThread - _request  - DEBUG    Request-UUID 824bdbbcc5d94b6181a86ce06abfa4ad for https://cloud.tenable.com/scanners/1/agents/103918058
+2023-01-28 11:37:03,490 - MainThread - _request  - DEBUG    {"method": "GET", "url": "https://cloud.tenable.com/scanners/1/agents/96427285", "params": {}, "body": {}}
+2023-01-28 11:37:07,364 - MainThread - _make_request  - DEBUG    https://cloud.tenable.com:443 "GET /scanners/1/agents/96427285 HTTP/1.1" 200 None
+2023-01-28 11:37:07,365 - MainThread - _request  - DEBUG    Request-UUID 91c7e5edcb7635d62729359369beb9e2 for https://cloud.tenable.com/scanners/1/agents/96427285
+2023-01-28 11:37:07,366 - MainThread - _request  - DEBUG    {"method": "GET", "url": "https://cloud.tenable.com/scanners/1/agents/56578004", "params": {}, "body": {}}
+2023-01-28 11:37:11,461 - MainThread - _make_request  - DEBUG    https://cloud.tenable.com:443 "GET /scanners/1/agents/56578004 HTTP/1.1" 200 None
+2023-01-28 11:37:11,462 - MainThread - _request  - DEBUG    Request-UUID ec7a6de1da0a2b4722ce794b765a141a for https://cloud.tenable.com/scanners/1/agents/56578004
+2023-01-28 11:37:11,463 - MainThread - _request  - DEBUG    {"method": "GET", "url": "https://cloud.tenable.com/scanners/1/agents/102983579", "params": {}, "body": {}}
+2023-01-28 11:37:15,324 - MainThread - _make_request  - DEBUG    https://cloud.tenable.com:443 "GET /scanners/1/agents/102983579 HTTP/1.1" 200 None
+2023-01-28 11:37:15,325 - MainThread - _request  - DEBUG    Request-UUID 5623bd98026ed3f6cec3497fb9502f08 for https://cloud.tenable.com/scanners/1/agents/102983579
+2023-01-28 11:37:15,325 - MainThread - _request  - DEBUG    {"method": "GET", "url": "https://cloud.tenable.com/scanners/1/agents/83593230", "params": {}, "body": {}}
+2023-01-28 11:37:19,449 - MainThread - _make_request  - DEBUG    https://cloud.tenable.com:443 "GET /scanners/1/agents/83593230 HTTP/1.1" 200 None
+2023-01-28 11:37:19,450 - MainThread - _request  - DEBUG    Request-UUID ee9172b26ab2f10dc997d41565c57565 for https://cloud.tenable.com/scanners/1/agents/83593230
+2023-01-28 11:37:19,451 - MainThread - _request  - DEBUG    {"method": "GET", "url": "https://cloud.tenable.com/scanners/1/agents/56092301", "params": {}, "body": {}}
+2023-01-28 11:37:23,443 - MainThread - _make_request  - DEBUG    https://cloud.tenable.com:443 "GET /scanners/1/agents/56092301 HTTP/1.1" 200 None
+2023-01-28 11:37:23,445 - MainThread - _request  - DEBUG    Request-UUID e41e33fd15e029234dddb067feec4d84 for https://cloud.tenable.com/scanners/1/agents/56092301
+2023-01-28 11:37:23,445 - MainThread - _request  - DEBUG    {"method": "GET", "url": "https://cloud.tenable.com/scanners/1/agents/16920163", "params": {}, "body": {}}
+2023-01-28 11:37:27,436 - MainThread - _make_request  - DEBUG    https://cloud.tenable.com:443 "GET /scanners/1/agents/16920163 HTTP/1.1" 200 None
+2023-01-28 11:37:27,438 - MainThread - _request  - DEBUG    Request-UUID 3601978cc9a3496f8c7bfad24586a09c for https://cloud.tenable.com/scanners/1/agents/16920163
+2023-01-28 11:37:27,438 - MainThread - _request  - DEBUG    {"method": "GET", "url": "https://cloud.tenable.com/scanners/1/agents/45965527", "params": {}, "body": {}}
+2023-01-28 11:37:31,429 - MainThread - _make_request  - DEBUG    https://cloud.tenable.com:443 "GET /scanners/1/agents/45965527 HTTP/1.1" 200 None
+2023-01-28 11:37:31,431 - MainThread - _request  - DEBUG    Request-UUID 0558547228b7e7dd8968f20adc1f9319 for https://cloud.tenable.com/scanners/1/agents/45965527
+2023-01-28 11:37:31,431 - MainThread - _request  - DEBUG    {"method": "GET", "url": "https://cloud.tenable.com/scanners/1/agents/16922516", "params": {}, "body": {}}
+2023-01-28 11:37:35,408 - MainThread - _make_request  - DEBUG    https://cloud.tenable.com:443 "GET /scanners/1/agents/16922516 HTTP/1.1" 200 None
+2023-01-28 11:37:35,409 - MainThread - _request  - DEBUG    Request-UUID e4afe7bae56c215b10a1427497c1a23c for https://cloud.tenable.com/scanners/1/agents/16922516
+2023-01-28 11:37:35,409 - MainThread - _request  - DEBUG    {"method": "GET", "url": "https://cloud.tenable.com/scanners/1/agents/16920170", "params": {}, "body": {}}
+2023-01-28 11:37:39,417 - MainThread - _make_request  - DEBUG    https://cloud.tenable.com:443 "GET /scanners/1/agents/16920170 HTTP/1.1" 200 None
+2023-01-28 11:37:39,418 - MainThread - _request  - DEBUG    Request-UUID d0af66d7825d1f6bb8f388a2a5464fe9 for https://cloud.tenable.com/scanners/1/agents/16920170
+2023-01-28 11:37:39,418 - MainThread - _request  - DEBUG    {"method": "GET", "url": "https://cloud.tenable.com/scanners/1/agents/16923042", "params": {}, "body": {}}
+2023-01-28 11:37:43,360 - MainThread - _make_request  - DEBUG    https://cloud.tenable.com:443 "GET /scanners/1/agents/16923042 HTTP/1.1" 200 None
+2023-01-28 11:37:43,362 - MainThread - _request  - DEBUG    Request-UUID 75dc02432b409f5c13cebba2f556fd49 for https://cloud.tenable.com/scanners/1/agents/16923042
+2023-01-28 11:37:43,362 - MainThread - _request  - DEBUG    {"method": "GET", "url": "https://cloud.tenable.com/scanners/1/agents/45970376", "params": {}, "body": {}}
+2023-01-28 11:37:47,404 - MainThread - _make_request  - DEBUG    https://cloud.tenable.com:443 "GET /scanners/1/agents/45970376 HTTP/1.1" 200 None
+2023-01-28 11:37:47,405 - MainThread - _request  - DEBUG    Request-UUID 65bbd427b56fd6af2792bc305f572083 for https://cloud.tenable.com/scanners/1/agents/45970376
+2023-01-28 11:37:47,405 - MainThread - _request  - DEBUG    {"method": "GET", "url": "https://cloud.tenable.com/scanners/1/agents/105127717", "params": {}, "body": {}}
+2023-01-28 11:37:51,397 - MainThread - _make_request  - DEBUG    https://cloud.tenable.com:443 "GET /scanners/1/agents/105127717 HTTP/1.1" 200 None
+2023-01-28 11:37:51,399 - MainThread - _request  - DEBUG    Request-UUID 9063fc8980fb48ae3b3fffffb14d0176 for https://cloud.tenable.com/scanners/1/agents/105127717
+2023-01-28 11:37:51,399 - MainThread - _request  - DEBUG    {"method": "GET", "url": "https://cloud.tenable.com/scanners/1/agents/16898485", "params": {}, "body": {}}
+2023-01-28 11:37:55,391 - MainThread - _make_request  - DEBUG    https://cloud.tenable.com:443 "GET /scanners/1/agents/16898485 HTTP/1.1" 200 None
+2023-01-28 11:37:55,392 - MainThread - _request  - DEBUG    Request-UUID 7d35144774e729d8289f19ed54d64986 for https://cloud.tenable.com/scanners/1/agents/16898485
+2023-01-28 11:37:55,392 - MainThread - _request  - DEBUG    {"method": "GET", "url": "https://cloud.tenable.com/scanners/1/agents/16899526", "params": {}, "body": {}}
+2023-01-28 11:37:59,385 - MainThread - _make_request  - DEBUG    https://cloud.tenable.com:443 "GET /scanners/1/agents/16899526 HTTP/1.1" 200 None
+2023-01-28 11:37:59,386 - MainThread - _request  - DEBUG    Request-UUID 700bee7801b02c56f79ee7e0b49038d1 for https://cloud.tenable.com/scanners/1/agents/16899526
+2023-01-28 11:37:59,386 - MainThread - _request  - DEBUG    {"method": "GET", "url": "https://cloud.tenable.com/scanners/1/agents/16899683", "params": {}, "body": {}}
+2023-01-28 11:38:03,481 - MainThread - _make_request  - DEBUG    https://cloud.tenable.com:443 "GET /scanners/1/agents/16899683 HTTP/1.1" 200 None
+2023-01-28 11:38:03,482 - MainThread - _request  - DEBUG    Request-UUID 66cf6323742b24914523c9087916aef8 for https://cloud.tenable.com/scanners/1/agents/16899683
+2023-01-28 11:38:03,483 - MainThread - _request  - DEBUG    {"method": "GET", "url": "https://cloud.tenable.com/scanners/1/agents/99956165", "params": {}, "body": {}}
+2023-01-28 11:38:07,379 - MainThread - _make_request  - DEBUG    https://cloud.tenable.com:443 "GET /scanners/1/agents/99956165 HTTP/1.1" 200 None
+2023-01-28 11:38:07,380 - MainThread - _request  - DEBUG    Request-UUID f013edda78113ffd5480992c6b8b7855 for https://cloud.tenable.com/scanners/1/agents/99956165
+2023-01-28 11:38:07,380 - MainThread - _request  - DEBUG    {"method": "GET", "url": "https://cloud.tenable.com/scanners/1/agents/16899566", "params": {}, "body": {}}
+2023-01-28 11:38:11,469 - MainThread - _make_request  - DEBUG    https://cloud.tenable.com:443 "GET /scanners/1/agents/16899566 HTTP/1.1" 200 None
+2023-01-28 11:38:11,470 - MainThread - _request  - DEBUG    Request-UUID 610ca01c14cddc514a4efdf74a83e41b for https://cloud.tenable.com/scanners/1/agents/16899566
+2023-01-28 11:38:11,470 - MainThread - _request  - DEBUG    {"method": "GET", "url": "https://cloud.tenable.com/scanners/1/agents/51563638", "params": {}, "body": {}}
+2023-01-28 11:38:15,563 - MainThread - _make_request  - DEBUG    https://cloud.tenable.com:443 "GET /scanners/1/agents/51563638 HTTP/1.1" 200 None
+2023-01-28 11:38:15,565 - MainThread - _request  - DEBUG    Request-UUID ba7f1c8c55716bd1ac1c05b154488449 for https://cloud.tenable.com/scanners/1/agents/51563638
+2023-01-28 11:38:15,565 - MainThread - _request  - DEBUG    {"method": "GET", "url": "https://cloud.tenable.com/scanners/1/agents/105014579", "params": {}, "body": {}}
+2023-01-28 11:38:19,455 - MainThread - _make_request  - DEBUG    https://cloud.tenable.com:443 "GET /scanners/1/agents/105014579 HTTP/1.1" 200 None
+2023-01-28 11:38:19,456 - MainThread - _request  - DEBUG    Request-UUID f8e6f29bca199b755ef516d99ea40c01 for https://cloud.tenable.com/scanners/1/agents/105014579
+2023-01-28 11:38:19,457 - MainThread - _request  - DEBUG    {"method": "GET", "url": "https://cloud.tenable.com/scanners/1/agents/45970368", "params": {}, "body": {}}
+2023-01-28 11:38:23,448 - MainThread - _make_request  - DEBUG    https://cloud.tenable.com:443 "GET /scanners/1/agents/45970368 HTTP/1.1" 200 None
+2023-01-28 11:38:23,450 - MainThread - _request  - DEBUG    Request-UUID d551f10601ac7be52dc2585521931364 for https://cloud.tenable.com/scanners/1/agents/45970368
+2023-01-28 11:38:23,450 - MainThread - _request  - DEBUG    {"method": "GET", "url": "https://cloud.tenable.com/scanners/1/agents/100069720", "params": {}, "body": {}}
+2023-01-28 11:38:27,442 - MainThread - _make_request  - DEBUG    https://cloud.tenable.com:443 "GET /scanners/1/agents/100069720 HTTP/1.1" 200 None
+2023-01-28 11:38:27,444 - MainThread - _request  - DEBUG    Request-UUID f3667c8aa7220a15a77345fe9556db90 for https://cloud.tenable.com/scanners/1/agents/100069720
+2023-01-28 11:38:27,444 - MainThread - _request  - DEBUG    {"method": "GET", "url": "https://cloud.tenable.com/scanners/1/agents/16925500", "params": {}, "body": {}}
+2023-01-28 11:38:31,436 - MainThread - _make_request  - DEBUG    https://cloud.tenable.com:443 "GET /scanners/1/agents/16925500 HTTP/1.1" 200 None
+2023-01-28 11:38:31,437 - MainThread - _request  - DEBUG    Request-UUID 6b4120ed95002ef0f114588f17ac8a97 for https://cloud.tenable.com/scanners/1/agents/16925500
+2023-01-28 11:38:31,437 - MainThread - _request  - DEBUG    {"method": "GET", "url": "https://cloud.tenable.com/scanners/1/agents/16920350", "params": {}, "body": {}}
+2023-01-28 11:38:35,433 - MainThread - _make_request  - DEBUG    https://cloud.tenable.com:443 "GET /scanners/1/agents/16920350 HTTP/1.1" 200 None
+2023-01-28 11:38:35,434 - MainThread - _request  - DEBUG    Request-UUID 8bf0d082c0f777721e656c1e8e6e6f33 for https://cloud.tenable.com/scanners/1/agents/16920350
+2023-01-28 11:38:35,435 - MainThread - _request  - DEBUG    {"method": "GET", "url": "https://cloud.tenable.com/scanners/1/agents/16925292", "params": {}, "body": {}}
+2023-01-28 11:38:39,423 - MainThread - _make_request  - DEBUG    https://cloud.tenable.com:443 "GET /scanners/1/agents/16925292 HTTP/1.1" 200 None
+2023-01-28 11:38:39,424 - MainThread - _request  - DEBUG    Request-UUID dc4d9a3592c778c9eaa58c9d180c4786 for https://cloud.tenable.com/scanners/1/agents/16925292
+2023-01-28 11:38:39,424 - MainThread - _request  - DEBUG    {"method": "GET", "url": "https://cloud.tenable.com/scanners/1/agents/45967394", "params": {}, "body": {}}
+2023-01-28 11:38:43,376 - MainThread - _make_request  - DEBUG    https://cloud.tenable.com:443 "GET /scanners/1/agents/45967394 HTTP/1.1" 200 None
+2023-01-28 11:38:43,377 - MainThread - _request  - DEBUG    Request-UUID 339956510ce1861490e86ea7073147f3 for https://cloud.tenable.com/scanners/1/agents/45967394
+2023-01-28 11:38:43,377 - MainThread - _request  - DEBUG    {"method": "GET", "url": "https://cloud.tenable.com/scanners/1/agents/100069726", "params": {}, "body": {}}
+2023-01-28 11:38:47,389 - MainThread - _make_request  - DEBUG    https://cloud.tenable.com:443 "GET /scanners/1/agents/100069726 HTTP/1.1" 200 None
+2023-01-28 11:38:47,390 - MainThread - _request  - DEBUG    Request-UUID 2f80e2dec22e183b8bc67b0611f4125d for https://cloud.tenable.com/scanners/1/agents/100069726
+2023-01-28 11:38:47,390 - MainThread - _request  - DEBUG    {"method": "GET", "url": "https://cloud.tenable.com/scanners/1/agents/16920708", "params": {}, "body": {}}
+2023-01-28 11:38:51,404 - MainThread - _make_request  - DEBUG    https://cloud.tenable.com:443 "GET /scanners/1/agents/16920708 HTTP/1.1" 200 None
+2023-01-28 11:38:51,405 - MainThread - _request  - DEBUG    Request-UUID 413636a4de942e285c085854cac3cc3e for https://cloud.tenable.com/scanners/1/agents/16920708
+2023-01-28 11:38:51,406 - MainThread - _request  - DEBUG    {"method": "GET", "url": "https://cloud.tenable.com/scanners/1/agents/45969586", "params": {}, "body": {}}
+2023-01-28 11:38:55,423 - MainThread - _make_request  - DEBUG    https://cloud.tenable.com:443 "GET /scanners/1/agents/45969586 HTTP/1.1" 200 None
+2023-01-28 11:38:55,424 - MainThread - _request  - DEBUG    Request-UUID 6495d8e5f4ca50073a864c74b0e39534 for https://cloud.tenable.com/scanners/1/agents/45969586
+2023-01-28 11:38:55,424 - MainThread - _request  - DEBUG    {"method": "GET", "url": "https://cloud.tenable.com/scanners/1/agents/100528234", "params": {}, "body": {}}
+2023-01-28 11:38:59,366 - MainThread - _make_request  - DEBUG    https://cloud.tenable.com:443 "GET /scanners/1/agents/100528234 HTTP/1.1" 200 None
+2023-01-28 11:38:59,368 - MainThread - _request  - DEBUG    Request-UUID cf95710b3b673cf69d2b390c19aeaac2 for https://cloud.tenable.com/scanners/1/agents/100528234
+2023-01-28 11:38:59,368 - MainThread - _request  - DEBUG    {"method": "GET", "url": "https://cloud.tenable.com/scanners/1/agents/45966171", "params": {}, "body": {}}
+2023-01-28 11:39:03,623 - MainThread - _make_request  - DEBUG    https://cloud.tenable.com:443 "GET /scanners/1/agents/45966171 HTTP/1.1" 200 None
+2023-01-28 11:39:03,624 - MainThread - _request  - DEBUG    Request-UUID 90241c4cd1ff280dbdb000330e25a6e2 for https://cloud.tenable.com/scanners/1/agents/45966171
+2023-01-28 11:39:03,625 - MainThread - _request  - DEBUG    {"method": "GET", "url": "https://cloud.tenable.com/scanners/1/agents/16897237", "params": {}, "body": {}}
+2023-01-28 11:39:07,480 - MainThread - _make_request  - DEBUG    https://cloud.tenable.com:443 "GET /scanners/1/agents/16897237 HTTP/1.1" 200 None
+2023-01-28 11:39:07,481 - MainThread - _request  - DEBUG    Request-UUID 75f23f8fd258d08a950df0966c6d23aa for https://cloud.tenable.com/scanners/1/agents/16897237
+2023-01-28 11:39:07,481 - MainThread - _request  - DEBUG    {"method": "GET", "url": "https://cloud.tenable.com/scanners/1/agents/16922934", "params": {}, "body": {}}
+2023-01-28 11:39:11,474 - MainThread - _make_request  - DEBUG    https://cloud.tenable.com:443 "GET /scanners/1/agents/16922934 HTTP/1.1" 200 None
+2023-01-28 11:39:11,475 - MainThread - _request  - DEBUG    Request-UUID ca287087ed890f2482179bb7eea68292 for https://cloud.tenable.com/scanners/1/agents/16922934
+2023-01-28 11:39:11,475 - MainThread - _request  - DEBUG    {"method": "GET", "url": "https://cloud.tenable.com/scanners/1/agents/75295150", "params": {}, "body": {}}
+2023-01-28 11:39:15,468 - MainThread - _make_request  - DEBUG    https://cloud.tenable.com:443 "GET /scanners/1/agents/75295150 HTTP/1.1" 200 None
+2023-01-28 11:39:15,469 - MainThread - _request  - DEBUG    Request-UUID 91daf94836b4914a03b1d0d4e70f8e5b for https://cloud.tenable.com/scanners/1/agents/75295150
+2023-01-28 11:39:15,469 - MainThread - _request  - DEBUG    {"method": "GET", "url": "https://cloud.tenable.com/scanners/1/agents/100527158", "params": {}, "body": {}}
+2023-01-28 11:39:19,462 - MainThread - _make_request  - DEBUG    https://cloud.tenable.com:443 "GET /scanners/1/agents/100527158 HTTP/1.1" 200 None
+2023-01-28 11:39:19,463 - MainThread - _request  - DEBUG    Request-UUID 1dc73c96e3467ee793494b904a837a09 for https://cloud.tenable.com/scanners/1/agents/100527158
+2023-01-28 11:39:19,464 - MainThread - _request  - DEBUG    {"method": "GET", "url": "https://cloud.tenable.com/scanners/1/agents/30792981", "params": {}, "body": {}}
+2023-01-28 11:39:23,419 - MainThread - _make_request  - DEBUG    https://cloud.tenable.com:443 "GET /scanners/1/agents/30792981 HTTP/1.1" 200 None
+2023-01-28 11:39:23,420 - MainThread - _request  - DEBUG    Request-UUID 181e093b29f8df787544e10794b7a2bf for https://cloud.tenable.com/scanners/1/agents/30792981
+2023-01-28 11:39:23,420 - MainThread - _request  - DEBUG    {"method": "GET", "url": "https://cloud.tenable.com/scanners/1/agents/99749894", "params": {}, "body": {}}
+2023-01-28 11:39:27,381 - MainThread - _make_request  - DEBUG    https://cloud.tenable.com:443 "GET /scanners/1/agents/99749894 HTTP/1.1" 200 None
+2023-01-28 11:39:27,382 - MainThread - _request  - DEBUG    Request-UUID e461dcfa48c4e51e203166e35b1c7c42 for https://cloud.tenable.com/scanners/1/agents/99749894
+2023-01-28 11:39:27,382 - MainThread - _request  - DEBUG    {"method": "GET", "url": "https://cloud.tenable.com/scanners/1/agents/16710969", "params": {}, "body": {}}
+2023-01-28 11:39:31,442 - MainThread - _make_request  - DEBUG    https://cloud.tenable.com:443 "GET /scanners/1/agents/16710969 HTTP/1.1" 200 None
+2023-01-28 11:39:31,444 - MainThread - _request  - DEBUG    Request-UUID c63cd30aa258a412c73770c7d60b91a2 for https://cloud.tenable.com/scanners/1/agents/16710969
+2023-01-28 11:39:31,444 - MainThread - _request  - DEBUG    {"method": "GET", "url": "https://cloud.tenable.com/scanners/1/agents/45961503", "params": {}, "body": {}}
+2023-01-28 11:39:35,378 - MainThread - _make_request  - DEBUG    https://cloud.tenable.com:443 "GET /scanners/1/agents/45961503 HTTP/1.1" 200 None
+2023-01-28 11:39:35,380 - MainThread - _request  - DEBUG    Request-UUID e1ada4d3cf044764de333ca6355af627 for https://cloud.tenable.com/scanners/1/agents/45961503
+2023-01-28 11:39:35,380 - MainThread - _request  - DEBUG    {"method": "GET", "url": "https://cloud.tenable.com/scanners/1/agents/45966179", "params": {}, "body": {}}
+2023-01-28 11:39:39,429 - MainThread - _make_request  - DEBUG    https://cloud.tenable.com:443 "GET /scanners/1/agents/45966179 HTTP/1.1" 200 None
+2023-01-28 11:39:39,430 - MainThread - _request  - DEBUG    Request-UUID 2dbf45384a65ea59ad1120d174ec18e5 for https://cloud.tenable.com/scanners/1/agents/45966179
+2023-01-28 11:39:39,430 - MainThread - _request  - DEBUG    {"method": "GET", "url": "https://cloud.tenable.com/scanners/1/agents/16714716", "params": {}, "body": {}}
+2023-01-28 11:39:43,525 - MainThread - _make_request  - DEBUG    https://cloud.tenable.com:443 "GET /scanners/1/agents/16714716 HTTP/1.1" 200 None
+2023-01-28 11:39:43,526 - MainThread - _request  - DEBUG    Request-UUID f11431e1fe97244469c12fe2ca99b993 for https://cloud.tenable.com/scanners/1/agents/16714716
+2023-01-28 11:39:43,527 - MainThread - _request  - DEBUG    {"method": "GET", "url": "https://cloud.tenable.com/scanners/1/agents/31719513", "params": {}, "body": {}}
+2023-01-28 11:39:47,515 - MainThread - _make_request  - DEBUG    https://cloud.tenable.com:443 "GET /scanners/1/agents/31719513 HTTP/1.1" 200 None
+2023-01-28 11:39:47,516 - MainThread - _request  - DEBUG    Request-UUID 735dc8e55515543df6b1220f861f70d3 for https://cloud.tenable.com/scanners/1/agents/31719513
+2023-01-28 11:39:47,517 - MainThread - _request  - DEBUG    {"method": "GET", "url": "https://cloud.tenable.com/scanners/1/agents/16714756", "params": {}, "body": {}}
+2023-01-28 11:39:51,513 - MainThread - _make_request  - DEBUG    https://cloud.tenable.com:443 "GET /scanners/1/agents/16714756 HTTP/1.1" 200 None
+2023-01-28 11:39:51,514 - MainThread - _request  - DEBUG    Request-UUID 9b702e1024bda4634b25ee9a73927c7d for https://cloud.tenable.com/scanners/1/agents/16714756
+2023-01-28 11:39:51,514 - MainThread - _request  - DEBUG    {"method": "GET", "url": "https://cloud.tenable.com/scanners/1/agents/45967540", "params": {}, "body": {}}
+2023-01-28 11:39:55,506 - MainThread - _make_request  - DEBUG    https://cloud.tenable.com:443 "GET /scanners/1/agents/45967540 HTTP/1.1" 200 None
+2023-01-28 11:39:55,508 - MainThread - _request  - DEBUG    Request-UUID 56e6914212391bea6e5014a9402589bb for https://cloud.tenable.com/scanners/1/agents/45967540
+2023-01-28 11:39:55,508 - MainThread - _request  - DEBUG    {"method": "GET", "url": "https://cloud.tenable.com/scanners/1/agents/16898096", "params": {}, "body": {}}
+2023-01-28 11:39:59,499 - MainThread - _make_request  - DEBUG    https://cloud.tenable.com:443 "GET /scanners/1/agents/16898096 HTTP/1.1" 200 None
+2023-01-28 11:39:59,501 - MainThread - _request  - DEBUG    Request-UUID 8ad7b8d3740874b5b4042e8ca22e4757 for https://cloud.tenable.com/scanners/1/agents/16898096
+2023-01-28 11:39:59,501 - MainThread - _request  - DEBUG    {"method": "GET", "url": "https://cloud.tenable.com/scanners/1/agents/45966173", "params": {}, "body": {}}
+2023-01-28 11:40:03,493 - MainThread - _make_request  - DEBUG    https://cloud.tenable.com:443 "GET /scanners/1/agents/45966173 HTTP/1.1" 200 None
+2023-01-28 11:40:03,494 - MainThread - _request  - DEBUG    Request-UUID 00ea2de08fd2c88a4d91d850de8caf7e for https://cloud.tenable.com/scanners/1/agents/45966173
+2023-01-28 11:40:03,495 - MainThread - _request  - DEBUG    {"method": "GET", "url": "https://cloud.tenable.com/scanners/1/agents/45965540", "params": {}, "body": {}}
+2023-01-28 11:40:07,487 - MainThread - _make_request  - DEBUG    https://cloud.tenable.com:443 "GET /scanners/1/agents/45965540 HTTP/1.1" 200 None
+2023-01-28 11:40:07,488 - MainThread - _request  - DEBUG    Request-UUID a2f445e8d6d2db18ffa0f7288f741171 for https://cloud.tenable.com/scanners/1/agents/45965540
+2023-01-28 11:40:07,488 - MainThread - _request  - DEBUG    {"method": "GET", "url": "https://cloud.tenable.com/scanners/1/agents/102873409", "params": {}, "body": {}}
+2023-01-28 11:40:11,481 - MainThread - _make_request  - DEBUG    https://cloud.tenable.com:443 "GET /scanners/1/agents/102873409 HTTP/1.1" 200 None
+2023-01-28 11:40:11,482 - MainThread - _request  - DEBUG    Request-UUID 9cc83b318d966f17085ca2bdb7b0c23f for https://cloud.tenable.com/scanners/1/agents/102873409
+2023-01-28 11:40:11,482 - MainThread - _request  - DEBUG    {"method": "GET", "url": "https://cloud.tenable.com/scanners/1/agents/16898025", "params": {}, "body": {}}
+2023-01-28 11:40:15,472 - MainThread - _make_request  - DEBUG    https://cloud.tenable.com:443 "GET /scanners/1/agents/16898025 HTTP/1.1" 200 None
+2023-01-28 11:40:15,474 - MainThread - _request  - DEBUG    Request-UUID 1e38f1acaa78b16944e1ea4f3961cd93 for https://cloud.tenable.com/scanners/1/agents/16898025
+2023-01-28 11:40:15,474 - MainThread - _request  - DEBUG    {"method": "GET", "url": "https://cloud.tenable.com/scanners/1/agents/100530940", "params": {}, "body": {}}
+2023-01-28 11:40:19,467 - MainThread - _make_request  - DEBUG    https://cloud.tenable.com:443 "GET /scanners/1/agents/100530940 HTTP/1.1" 200 None
+2023-01-28 11:40:19,469 - MainThread - _request  - DEBUG    Request-UUID d5ce9fac4498aebb80a86072d402d7ef for https://cloud.tenable.com/scanners/1/agents/100530940
+2023-01-28 11:40:19,469 - MainThread - _request  - DEBUG    {"method": "GET", "url": "https://cloud.tenable.com/scanners/1/agents/100746864", "params": {}, "body": {}}
+2023-01-28 11:40:23,536 - MainThread - _make_request  - DEBUG    https://cloud.tenable.com:443 "GET /scanners/1/agents/100746864 HTTP/1.1" 200 None
+2023-01-28 11:40:23,537 - MainThread - _request  - DEBUG    Request-UUID 6828d29af99e636f565ed6b7b5fce771 for https://cloud.tenable.com/scanners/1/agents/100746864
+2023-01-28 11:40:23,538 - MainThread - _request  - DEBUG    {"method": "GET", "url": "https://cloud.tenable.com/scanners/1/agents/103918065", "params": {}, "body": {}}
+2023-01-28 11:40:27,452 - MainThread - _make_request  - DEBUG    https://cloud.tenable.com:443 "GET /scanners/1/agents/103918065 HTTP/1.1" 200 None
+2023-01-28 11:40:27,453 - MainThread - _request  - DEBUG    Request-UUID 2b05d498ea917350d797992b499fa686 for https://cloud.tenable.com/scanners/1/agents/103918065
+2023-01-28 11:40:27,454 - MainThread - _request  - DEBUG    {"method": "GET", "url": "https://cloud.tenable.com/scanners/1/agents/100529327", "params": {}, "body": {}}
+2023-01-28 11:40:31,418 - MainThread - _make_request  - DEBUG    https://cloud.tenable.com:443 "GET /scanners/1/agents/100529327 HTTP/1.1" 200 None
+2023-01-28 11:40:31,419 - MainThread - _request  - DEBUG    Request-UUID 8ea7d1fc0c88ab39318c05fffdcc8a29 for https://cloud.tenable.com/scanners/1/agents/100529327
+2023-01-28 11:40:31,419 - MainThread - _request  - DEBUG    {"method": "GET", "url": "https://cloud.tenable.com/scanners/1/agents/16904342", "params": {}, "body": {}}
+2023-01-28 11:40:35,599 - MainThread - _make_request  - DEBUG    https://cloud.tenable.com:443 "GET /scanners/1/agents/16904342 HTTP/1.1" 200 None
+2023-01-28 11:40:35,600 - MainThread - _request  - DEBUG    Request-UUID 8db944ca1549c0a5afe9c32648fe1d34 for https://cloud.tenable.com/scanners/1/agents/16904342
+2023-01-28 11:40:35,600 - MainThread - _request  - DEBUG    {"method": "GET", "url": "https://cloud.tenable.com/scanners/1/agents/16898469", "params": {}, "body": {}}
+2023-01-28 11:40:39,524 - MainThread - _make_request  - DEBUG    https://cloud.tenable.com:443 "GET /scanners/1/agents/16898469 HTTP/1.1" 200 None
+2023-01-28 11:40:39,526 - MainThread - _request  - DEBUG    Request-UUID 68e8ca06a5f693fc899918a6268c9ca6 for https://cloud.tenable.com/scanners/1/agents/16898469
+2023-01-28 11:40:39,526 - MainThread - _request  - DEBUG    {"method": "GET", "url": "https://cloud.tenable.com/scanners/1/agents/105132780", "params": {}, "body": {}}
+2023-01-28 11:40:43,406 - MainThread - _make_request  - DEBUG    https://cloud.tenable.com:443 "GET /scanners/1/agents/105132780 HTTP/1.1" 200 None
+2023-01-28 11:40:43,408 - MainThread - _request  - DEBUG    Request-UUID f55985111f8c4da16a6efd679ecfe5bb for https://cloud.tenable.com/scanners/1/agents/105132780
+2023-01-28 11:40:43,408 - MainThread - _request  - DEBUG    {"method": "GET", "url": "https://cloud.tenable.com/scanners/1/agents/102873616", "params": {}, "body": {}}
+2023-01-28 11:40:47,526 - MainThread - _make_request  - DEBUG    https://cloud.tenable.com:443 "GET /scanners/1/agents/102873616 HTTP/1.1" 200 None
+2023-01-28 11:40:47,527 - MainThread - _request  - DEBUG    Request-UUID 0b7e1994a160bb257b963bda1cb78705 for https://cloud.tenable.com/scanners/1/agents/102873616
+2023-01-28 11:40:47,527 - MainThread - _request  - DEBUG    {"method": "GET", "url": "https://cloud.tenable.com/scanners/1/agents/105017590", "params": {}, "body": {}}
+2023-01-28 11:40:51,519 - MainThread - _make_request  - DEBUG    https://cloud.tenable.com:443 "GET /scanners/1/agents/105017590 HTTP/1.1" 200 None
+2023-01-28 11:40:51,520 - MainThread - _request  - DEBUG    Request-UUID 0b68097feae750fa033e35ceda1c358f for https://cloud.tenable.com/scanners/1/agents/105017590
+2023-01-28 11:40:51,520 - MainThread - _request  - DEBUG    {"method": "GET", "url": "https://cloud.tenable.com/scanners/1/agents/16923557", "params": {}, "body": {}}
+2023-01-28 11:40:55,513 - MainThread - _make_request  - DEBUG    https://cloud.tenable.com:443 "GET /scanners/1/agents/16923557 HTTP/1.1" 200 None
+2023-01-28 11:40:55,514 - MainThread - _request  - DEBUG    Request-UUID 937d57642f1869fae3749d3cecbeae72 for https://cloud.tenable.com/scanners/1/agents/16923557
+2023-01-28 11:40:55,514 - MainThread - _request  - DEBUG    {"method": "GET", "url": "https://cloud.tenable.com/scanners/1/agents/45965474", "params": {}, "body": {}}
+2023-01-28 11:40:59,506 - MainThread - _make_request  - DEBUG    https://cloud.tenable.com:443 "GET /scanners/1/agents/45965474 HTTP/1.1" 200 None
+2023-01-28 11:40:59,507 - MainThread - _request  - DEBUG    Request-UUID 87b7efb62f4a60495376060f96b18145 for https://cloud.tenable.com/scanners/1/agents/45965474
+2023-01-28 11:40:59,508 - MainThread - _request  - DEBUG    {"method": "GET", "url": "https://cloud.tenable.com/scanners/1/agents/16898466", "params": {}, "body": {}}
+2023-01-28 11:41:03,500 - MainThread - _make_request  - DEBUG    https://cloud.tenable.com:443 "GET /scanners/1/agents/16898466 HTTP/1.1" 200 None
+2023-01-28 11:41:03,501 - MainThread - _request  - DEBUG    Request-UUID 7cb2e8f5d4d4826f6728f607e11043dc for https://cloud.tenable.com/scanners/1/agents/16898466
+2023-01-28 11:41:03,501 - MainThread - _request  - DEBUG    {"method": "GET", "url": "https://cloud.tenable.com/scanners/1/agents/102873703", "params": {}, "body": {}}
+2023-01-28 11:41:07,493 - MainThread - _make_request  - DEBUG    https://cloud.tenable.com:443 "GET /scanners/1/agents/102873703 HTTP/1.1" 200 None
+2023-01-28 11:41:07,495 - MainThread - _request  - DEBUG    Request-UUID 52b14029bb7367a90a3d0727c50f426d for https://cloud.tenable.com/scanners/1/agents/102873703
+2023-01-28 11:41:07,495 - MainThread - _request  - DEBUG    {"method": "GET", "url": "https://cloud.tenable.com/scanners/1/agents/16898478", "params": {}, "body": {}}
+2023-01-28 11:41:11,487 - MainThread - _make_request  - DEBUG    https://cloud.tenable.com:443 "GET /scanners/1/agents/16898478 HTTP/1.1" 200 None
+2023-01-28 11:41:11,488 - MainThread - _request  - DEBUG    Request-UUID e1c90cda58af6daf5490388f2253cf61 for https://cloud.tenable.com/scanners/1/agents/16898478
+2023-01-28 11:41:11,488 - MainThread - _request  - DEBUG    {"method": "GET", "url": "https://cloud.tenable.com/scanners/1/agents/16898501", "params": {}, "body": {}}
+2023-01-28 11:41:15,582 - MainThread - _make_request  - DEBUG    https://cloud.tenable.com:443 "GET /scanners/1/agents/16898501 HTTP/1.1" 200 None
+2023-01-28 11:41:15,584 - MainThread - _request  - DEBUG    Request-UUID a3985b92c2d5a31ddb483f6e87545157 for https://cloud.tenable.com/scanners/1/agents/16898501
+2023-01-28 11:41:15,584 - MainThread - _request  - DEBUG    {"method": "GET", "url": "https://cloud.tenable.com/scanners/1/agents/16898960", "params": {}, "body": {}}
+2023-01-28 11:41:19,515 - MainThread - _make_request  - DEBUG    https://cloud.tenable.com:443 "GET /scanners/1/agents/16898960 HTTP/1.1" 200 None
+2023-01-28 11:41:19,516 - MainThread - _request  - DEBUG    Request-UUID 198ed44fd727c32a00c2039d2702983d for https://cloud.tenable.com/scanners/1/agents/16898960
+2023-01-28 11:41:19,517 - MainThread - _request  - DEBUG    {"method": "GET", "url": "https://cloud.tenable.com/scanners/1/agents/100065475", "params": {}, "body": {}}
+2023-01-28 11:41:23,516 - MainThread - _make_request  - DEBUG    https://cloud.tenable.com:443 "GET /scanners/1/agents/100065475 HTTP/1.1" 200 None
+2023-01-28 11:41:23,517 - MainThread - _request  - DEBUG    Request-UUID dd7bb8486ab2bc24d91fa5bffa55e344 for https://cloud.tenable.com/scanners/1/agents/100065475
+2023-01-28 11:41:23,517 - MainThread - _request  - DEBUG    {"method": "GET", "url": "https://cloud.tenable.com/scanners/1/agents/16714713", "params": {}, "body": {}}
+2023-01-28 11:41:27,515 - MainThread - _make_request  - DEBUG    https://cloud.tenable.com:443 "GET /scanners/1/agents/16714713 HTTP/1.1" 200 None
+2023-01-28 11:41:27,516 - MainThread - _request  - DEBUG    Request-UUID 91faa36006e673b2ba143a921a94afd2 for https://cloud.tenable.com/scanners/1/agents/16714713
+2023-01-28 11:41:27,517 - MainThread - _request  - DEBUG    {"method": "GET", "url": "https://cloud.tenable.com/scanners/1/agents/100069730", "params": {}, "body": {}}
+2023-01-28 11:41:31,659 - MainThread - _make_request  - DEBUG    https://cloud.tenable.com:443 "GET /scanners/1/agents/100069730 HTTP/1.1" 200 None
+2023-01-28 11:41:31,660 - MainThread - _request  - DEBUG    Request-UUID 5aba1acc46e993b22b4b9aca5c0c2d3e for https://cloud.tenable.com/scanners/1/agents/100069730
+2023-01-28 11:41:31,661 - MainThread - _request  - DEBUG    {"method": "GET", "url": "https://cloud.tenable.com/scanners/1/agents/103918059", "params": {}, "body": {}}
+2023-01-28 11:41:35,550 - MainThread - _make_request  - DEBUG    https://cloud.tenable.com:443 "GET /scanners/1/agents/103918059 HTTP/1.1" 200 None
+2023-01-28 11:41:35,552 - MainThread - _request  - DEBUG    Request-UUID cb94bb15b1c7378e32425ad97c8b55a3 for https://cloud.tenable.com/scanners/1/agents/103918059
+2023-01-28 11:41:35,552 - MainThread - _request  - DEBUG    {"method": "GET", "url": "https://cloud.tenable.com/scanners/1/agents/63311772", "params": {}, "body": {}}
+2023-01-28 11:41:39,525 - MainThread - _make_request  - DEBUG    https://cloud.tenable.com:443 "GET /scanners/1/agents/63311772 HTTP/1.1" 200 None
+2023-01-28 11:41:39,527 - MainThread - _request  - DEBUG    Request-UUID 4441d4e14d14985aac4b7dc6c9859026 for https://cloud.tenable.com/scanners/1/agents/63311772
+2023-01-28 11:41:39,527 - MainThread - _request  - DEBUG    {"method": "GET", "url": "https://cloud.tenable.com/scanners/1/agents/64894291", "params": {}, "body": {}}
+2023-01-28 11:41:43,536 - MainThread - _make_request  - DEBUG    https://cloud.tenable.com:443 "GET /scanners/1/agents/64894291 HTTP/1.1" 200 None
+2023-01-28 11:41:43,537 - MainThread - _request  - DEBUG    Request-UUID ee9b81d464cc6daebc5a7adb8ca6c812 for https://cloud.tenable.com/scanners/1/agents/64894291
+2023-01-28 11:41:43,537 - MainThread - _request  - DEBUG    {"method": "GET", "url": "https://cloud.tenable.com/scanners/1/agents/67599545", "params": {}, "body": {}}
+2023-01-28 11:41:47,474 - MainThread - _make_request  - DEBUG    https://cloud.tenable.com:443 "GET /scanners/1/agents/67599545 HTTP/1.1" 200 None
+2023-01-28 11:41:47,475 - MainThread - _request  - DEBUG    Request-UUID 059839f2da34d8c89dda1e7c23bb2988 for https://cloud.tenable.com/scanners/1/agents/67599545
+2023-01-28 11:41:47,475 - MainThread - _request  - DEBUG    {"method": "GET", "url": "https://cloud.tenable.com/scanners/1/agents/103918067", "params": {}, "body": {}}
+2023-01-28 11:41:51,525 - MainThread - _make_request  - DEBUG    https://cloud.tenable.com:443 "GET /scanners/1/agents/103918067 HTTP/1.1" 200 None
+2023-01-28 11:41:51,526 - MainThread - _request  - DEBUG    Request-UUID 3fe8a811e1db4f4f61c4d5f2acd9b2f0 for https://cloud.tenable.com/scanners/1/agents/103918067
+2023-01-28 11:41:51,526 - MainThread - _request  - DEBUG    {"method": "GET", "url": "https://cloud.tenable.com/scanners/1/agents/58021324", "params": {}, "body": {}}
+2023-01-28 11:41:55,518 - MainThread - _make_request  - DEBUG    https://cloud.tenable.com:443 "GET /scanners/1/agents/58021324 HTTP/1.1" 200 None
+2023-01-28 11:41:55,520 - MainThread - _request  - DEBUG    Request-UUID 502f95def470074167ddeceec2ce5e40 for https://cloud.tenable.com/scanners/1/agents/58021324
+2023-01-28 11:41:55,520 - MainThread - _request  - DEBUG    {"method": "GET", "url": "https://cloud.tenable.com/scanners/1/agents/59507416", "params": {}, "body": {}}
+2023-01-28 11:41:59,516 - MainThread - _make_request  - DEBUG    https://cloud.tenable.com:443 "GET /scanners/1/agents/59507416 HTTP/1.1" 200 None
+2023-01-28 11:41:59,517 - MainThread - _request  - DEBUG    Request-UUID 56a1ba953fdc5eb2fc89ed6b7b656d2b for https://cloud.tenable.com/scanners/1/agents/59507416
+2023-01-28 11:41:59,518 - MainThread - _request  - DEBUG    {"method": "GET", "url": "https://cloud.tenable.com/scanners/1/agents/66190499", "params": {}, "body": {}}
+2023-01-28 11:42:03,507 - MainThread - _make_request  - DEBUG    https://cloud.tenable.com:443 "GET /scanners/1/agents/66190499 HTTP/1.1" 200 None
+2023-01-28 11:42:03,508 - MainThread - _request  - DEBUG    Request-UUID 4ff2009f60fb5348ac3553fcd3f53273 for https://cloud.tenable.com/scanners/1/agents/66190499
+2023-01-28 11:42:03,509 - MainThread - _request  - DEBUG    {"method": "GET", "url": "https://cloud.tenable.com/scanners/1/agents/100069723", "params": {}, "body": {}}
+2023-01-28 11:42:07,602 - MainThread - _make_request  - DEBUG    https://cloud.tenable.com:443 "GET /scanners/1/agents/100069723 HTTP/1.1" 200 None
+2023-01-28 11:42:07,603 - MainThread - _request  - DEBUG    Request-UUID 6c66c3aef776fab9ee36818de272c9eb for https://cloud.tenable.com/scanners/1/agents/100069723
+2023-01-28 11:42:07,604 - MainThread - _request  - DEBUG    {"method": "GET", "url": "https://cloud.tenable.com/scanners/1/agents/76419322", "params": {}, "body": {}}
+2023-01-28 11:42:11,493 - MainThread - _make_request  - DEBUG    https://cloud.tenable.com:443 "GET /scanners/1/agents/76419322 HTTP/1.1" 200 None
+2023-01-28 11:42:11,494 - MainThread - _request  - DEBUG    Request-UUID 29a1ac8fe54fc253c9d1fa8f5eea2611 for https://cloud.tenable.com/scanners/1/agents/76419322
+2023-01-28 11:42:11,494 - MainThread - _request  - DEBUG    {"method": "GET", "url": "https://cloud.tenable.com/scanners/1/agents/57507193", "params": {}, "body": {}}
+2023-01-28 11:42:15,486 - MainThread - _make_request  - DEBUG    https://cloud.tenable.com:443 "GET /scanners/1/agents/57507193 HTTP/1.1" 200 None
+2023-01-28 11:42:15,487 - MainThread - _request  - DEBUG    Request-UUID 83ef5c679ed6598273501051f54bbb58 for https://cloud.tenable.com/scanners/1/agents/57507193
+2023-01-28 11:42:15,488 - MainThread - _request  - DEBUG    {"method": "GET", "url": "https://cloud.tenable.com/scanners/1/agents/63311864", "params": {}, "body": {}}
+2023-01-28 11:42:19,526 - MainThread - _make_request  - DEBUG    https://cloud.tenable.com:443 "GET /scanners/1/agents/63311864 HTTP/1.1" 200 None
+2023-01-28 11:42:19,527 - MainThread - _request  - DEBUG    Request-UUID 393fc718fc99fb211b7645df4f1f4dc7 for https://cloud.tenable.com/scanners/1/agents/63311864
+2023-01-28 11:42:19,528 - MainThread - _request  - DEBUG    {"method": "GET", "url": "https://cloud.tenable.com/scanners/1/agents/57136184", "params": {}, "body": {}}
+2023-01-28 11:42:23,474 - MainThread - _make_request  - DEBUG    https://cloud.tenable.com:443 "GET /scanners/1/agents/57136184 HTTP/1.1" 200 None
+2023-01-28 11:42:23,476 - MainThread - _request  - DEBUG    Request-UUID 6f2260716434148ce19a81ffa2cd12ce for https://cloud.tenable.com/scanners/1/agents/57136184
+2023-01-28 11:42:23,476 - MainThread - _request  - DEBUG    {"method": "GET", "url": "https://cloud.tenable.com/scanners/1/agents/62050972", "params": {}, "body": {}}
+2023-01-28 11:42:27,467 - MainThread - _make_request  - DEBUG    https://cloud.tenable.com:443 "GET /scanners/1/agents/62050972 HTTP/1.1" 200 None
+2023-01-28 11:42:27,468 - MainThread - _request  - DEBUG    Request-UUID 1ea1b9563de16eef0488f12773ceb9d0 for https://cloud.tenable.com/scanners/1/agents/62050972
+2023-01-28 11:42:27,469 - MainThread - _request  - DEBUG    {"method": "GET", "url": "https://cloud.tenable.com/scanners/1/agents/63771220", "params": {}, "body": {}}
+2023-01-28 11:42:31,516 - MainThread - _make_request  - DEBUG    https://cloud.tenable.com:443 "GET /scanners/1/agents/63771220 HTTP/1.1" 200 None
+2023-01-28 11:42:31,517 - MainThread - _request  - DEBUG    Request-UUID 88a31915b78f5e40c6cdbebc02e3520b for https://cloud.tenable.com/scanners/1/agents/63771220
+2023-01-28 11:42:31,518 - MainThread - _request  - DEBUG    {"method": "GET", "url": "https://cloud.tenable.com/scanners/1/agents/16898458", "params": {}, "body": {}}
+2023-01-28 11:42:35,554 - MainThread - _make_request  - DEBUG    https://cloud.tenable.com:443 "GET /scanners/1/agents/16898458 HTTP/1.1" 200 None
+2023-01-28 11:42:35,555 - MainThread - _request  - DEBUG    Request-UUID 88fb8c5ee41010041f76497d2911f9c9 for https://cloud.tenable.com/scanners/1/agents/16898458
+2023-01-28 11:42:35,555 - MainThread - _request  - DEBUG    {"method": "GET", "url": "https://cloud.tenable.com/scanners/1/agents/103918063", "params": {}, "body": {}}
+2023-01-28 11:42:39,448 - MainThread - _make_request  - DEBUG    https://cloud.tenable.com:443 "GET /scanners/1/agents/103918063 HTTP/1.1" 200 None
+2023-01-28 11:42:39,449 - MainThread - _request  - DEBUG    Request-UUID 4a294e31361c66f4ddbb3a19251dabfb for https://cloud.tenable.com/scanners/1/agents/103918063
+2023-01-28 11:42:39,450 - MainThread - _request  - DEBUG    {"method": "GET", "url": "https://cloud.tenable.com/scanners/1/agents/64893244", "params": {}, "body": {}}
+2023-01-28 11:42:43,544 - MainThread - _make_request  - DEBUG    https://cloud.tenable.com:443 "GET /scanners/1/agents/64893244 HTTP/1.1" 200 None
+2023-01-28 11:42:43,546 - MainThread - _request  - DEBUG    Request-UUID c83c5b4c129634ea35dbdea14d70b9ac for https://cloud.tenable.com/scanners/1/agents/64893244
+2023-01-28 11:42:43,546 - MainThread - _request  - DEBUG    {"method": "GET", "url": "https://cloud.tenable.com/scanners/1/agents/104020430", "params": {}, "body": {}}
+2023-01-28 11:42:47,537 - MainThread - _make_request  - DEBUG    https://cloud.tenable.com:443 "GET /scanners/1/agents/104020430 HTTP/1.1" 200 None
+2023-01-28 11:42:47,538 - MainThread - _request  - DEBUG    Request-UUID 6a2301a967b349ee31683c2be0e575f0 for https://cloud.tenable.com/scanners/1/agents/104020430
+2023-01-28 11:42:47,539 - MainThread - _request  - DEBUG    {"method": "GET", "url": "https://cloud.tenable.com/scanners/1/agents/103918073", "params": {}, "body": {}}
+2023-01-28 11:42:51,531 - MainThread - _make_request  - DEBUG    https://cloud.tenable.com:443 "GET /scanners/1/agents/103918073 HTTP/1.1" 200 None
+2023-01-28 11:42:51,532 - MainThread - _request  - DEBUG    Request-UUID 3bf7b290ac6502ed2501d265642ea67d for https://cloud.tenable.com/scanners/1/agents/103918073
+2023-01-28 11:42:51,532 - MainThread - _request  - DEBUG    {"method": "GET", "url": "https://cloud.tenable.com/scanners/1/agents/53122173", "params": {}, "body": {}}
+2023-01-28 11:42:55,525 - MainThread - _make_request  - DEBUG    https://cloud.tenable.com:443 "GET /scanners/1/agents/53122173 HTTP/1.1" 200 None
+2023-01-28 11:42:55,526 - MainThread - _request  - DEBUG    Request-UUID 4d224e6b38d2e6a4d2475a92d088af36 for https://cloud.tenable.com/scanners/1/agents/53122173
+2023-01-28 11:42:55,526 - MainThread - _request  - DEBUG    {"method": "GET", "url": "https://cloud.tenable.com/scanners/1/agents/53045839", "params": {}, "body": {}}
+2023-01-28 11:42:59,521 - MainThread - _make_request  - DEBUG    https://cloud.tenable.com:443 "GET /scanners/1/agents/53045839 HTTP/1.1" 200 None
+2023-01-28 11:42:59,522 - MainThread - _request  - DEBUG    Request-UUID e364673eecb7364677fcb3b759c44dac for https://cloud.tenable.com/scanners/1/agents/53045839
+2023-01-28 11:42:59,523 - MainThread - _request  - DEBUG    {"method": "GET", "url": "https://cloud.tenable.com/scanners/1/agents/55410066", "params": {}, "body": {}}
+2023-01-28 11:43:03,512 - MainThread - _make_request  - DEBUG    https://cloud.tenable.com:443 "GET /scanners/1/agents/55410066 HTTP/1.1" 200 None
+2023-01-28 11:43:03,513 - MainThread - _request  - DEBUG    Request-UUID 8faa44231e887ee019d8f5e0dc6a307f for https://cloud.tenable.com/scanners/1/agents/55410066
+2023-01-28 11:43:03,514 - MainThread - _request  - DEBUG    {"method": "GET", "url": "https://cloud.tenable.com/scanners/1/agents/94451863", "params": {}, "body": {}}
+2023-01-28 11:43:07,521 - MainThread - _make_request  - DEBUG    https://cloud.tenable.com:443 "GET /scanners/1/agents/94451863 HTTP/1.1" 200 None
+2023-01-28 11:43:07,523 - MainThread - _request  - DEBUG    Request-UUID 8f8a811203f857372c4fe247fe8f32aa for https://cloud.tenable.com/scanners/1/agents/94451863
+2023-01-28 11:43:07,523 - MainThread - _request  - DEBUG    {"method": "GET", "url": "https://cloud.tenable.com/scanners/1/agents/96724770", "params": {}, "body": {}}
+2023-01-28 11:43:11,499 - MainThread - _make_request  - DEBUG    https://cloud.tenable.com:443 "GET /scanners/1/agents/96724770 HTTP/1.1" 200 None
+2023-01-28 11:43:11,500 - MainThread - _request  - DEBUG    Request-UUID a054c8802719aaf29d25c4df2a0c3b55 for https://cloud.tenable.com/scanners/1/agents/96724770
+2023-01-28 11:43:11,500 - MainThread - _request  - DEBUG    {"method": "GET", "url": "https://cloud.tenable.com/scanners/1/agents/58021102", "params": {}, "body": {}}
+2023-01-28 11:43:15,595 - MainThread - _make_request  - DEBUG    https://cloud.tenable.com:443 "GET /scanners/1/agents/58021102 HTTP/1.1" 200 None
+2023-01-28 11:43:15,596 - MainThread - _request  - DEBUG    Request-UUID e38a35b0ae5ad4f46996146bff6d7728 for https://cloud.tenable.com/scanners/1/agents/58021102
+2023-01-28 11:43:15,596 - MainThread - _request  - DEBUG    {"method": "GET", "url": "https://cloud.tenable.com/scanners/1/agents/68218255", "params": {}, "body": {}}
+2023-01-28 11:43:19,589 - MainThread - _make_request  - DEBUG    https://cloud.tenable.com:443 "GET /scanners/1/agents/68218255 HTTP/1.1" 200 None
+2023-01-28 11:43:19,591 - MainThread - _request  - DEBUG    Request-UUID 44c12e4a14c569fc3e13a5f79b4d7e65 for https://cloud.tenable.com/scanners/1/agents/68218255
+2023-01-28 11:43:19,591 - MainThread - _request  - DEBUG    {"method": "GET", "url": "https://cloud.tenable.com/scanners/1/agents/104034120", "params": {}, "body": {}}
+2023-01-28 11:43:23,480 - MainThread - _make_request  - DEBUG    https://cloud.tenable.com:443 "GET /scanners/1/agents/104034120 HTTP/1.1" 200 None
+2023-01-28 11:43:23,482 - MainThread - _request  - DEBUG    Request-UUID 0994db599059aa3b45a855929247cc08 for https://cloud.tenable.com/scanners/1/agents/104034120
+2023-01-28 11:43:23,482 - MainThread - _request  - DEBUG    {"method": "GET", "url": "https://cloud.tenable.com/scanners/1/agents/103127519", "params": {}, "body": {}}
+2023-01-28 11:43:27,648 - MainThread - _make_request  - DEBUG    https://cloud.tenable.com:443 "GET /scanners/1/agents/103127519 HTTP/1.1" 200 None
+2023-01-28 11:43:27,650 - MainThread - _request  - DEBUG    Request-UUID ba1427e179a0873a11ab1d0c0dfb1a7d for https://cloud.tenable.com/scanners/1/agents/103127519
+2023-01-28 11:43:27,650 - MainThread - _request  - DEBUG    {"method": "GET", "url": "https://cloud.tenable.com/scanners/1/agents/102850155", "params": {}, "body": {}}
+2023-01-28 11:43:31,569 - MainThread - _make_request  - DEBUG    https://cloud.tenable.com:443 "GET /scanners/1/agents/102850155 HTTP/1.1" 200 None
+2023-01-28 11:43:31,570 - MainThread - _request  - DEBUG    Request-UUID 219a47fa87e0f9f13cd4d85305343832 for https://cloud.tenable.com/scanners/1/agents/102850155
+2023-01-28 11:43:31,571 - MainThread - _request  - DEBUG    {"method": "GET", "url": "https://cloud.tenable.com/scanners/1/agents/103918085", "params": {}, "body": {}}
+2023-01-28 11:43:35,563 - MainThread - _make_request  - DEBUG    https://cloud.tenable.com:443 "GET /scanners/1/agents/103918085 HTTP/1.1" 200 None
+2023-01-28 11:43:35,564 - MainThread - _request  - DEBUG    Request-UUID 4a5f9d31a143f82f04ac3d7fd0dee4ba for https://cloud.tenable.com/scanners/1/agents/103918085
+2023-01-28 11:43:35,565 - MainThread - _request  - DEBUG    {"method": "GET", "url": "https://cloud.tenable.com/scanners/1/agents/103918078", "params": {}, "body": {}}
+2023-01-28 11:43:39,557 - MainThread - _make_request  - DEBUG    https://cloud.tenable.com:443 "GET /scanners/1/agents/103918078 HTTP/1.1" 200 None
+2023-01-28 11:43:39,558 - MainThread - _request  - DEBUG    Request-UUID fe81a2ffb227bb9b329d1e9ffe62647d for https://cloud.tenable.com/scanners/1/agents/103918078
+2023-01-28 11:43:39,559 - MainThread - _request  - DEBUG    {"method": "GET", "url": "https://cloud.tenable.com/scanners/1/agents/81719509", "params": {}, "body": {}}
+2023-01-28 11:43:43,547 - MainThread - _make_request  - DEBUG    https://cloud.tenable.com:443 "GET /scanners/1/agents/81719509 HTTP/1.1" 200 None
+2023-01-28 11:43:43,549 - MainThread - _request  - DEBUG    Request-UUID 24ec1ed4a37f796143d56e5bb1cb552e for https://cloud.tenable.com/scanners/1/agents/81719509
+2023-01-28 11:43:43,549 - MainThread - _request  - DEBUG    {"method": "GET", "url": "https://cloud.tenable.com/scanners/1/agents/103918093", "params": {}, "body": {}}
+2023-01-28 11:43:47,544 - MainThread - _make_request  - DEBUG    https://cloud.tenable.com:443 "GET /scanners/1/agents/103918093 HTTP/1.1" 200 None
+2023-01-28 11:43:47,545 - MainThread - _request  - DEBUG    Request-UUID b86ff4cd3c3a000ad0cf3544d028b56d for https://cloud.tenable.com/scanners/1/agents/103918093
+2023-01-28 11:43:47,545 - MainThread - _request  - DEBUG    {"method": "GET", "url": "https://cloud.tenable.com/scanners/1/agents/100079218", "params": {}, "body": {}}
+2023-01-28 11:43:51,537 - MainThread - _make_request  - DEBUG    https://cloud.tenable.com:443 "GET /scanners/1/agents/100079218 HTTP/1.1" 200 None
+2023-01-28 11:43:51,538 - MainThread - _request  - DEBUG    Request-UUID 5d438d87b85c00f9f55f6dd5926750e8 for https://cloud.tenable.com/scanners/1/agents/100079218
+2023-01-28 11:43:51,539 - MainThread - _request  - DEBUG    {"method": "GET", "url": "https://cloud.tenable.com/scanners/1/agents/79821599", "params": {}, "body": {}}
+2023-01-28 11:43:55,531 - MainThread - _make_request  - DEBUG    https://cloud.tenable.com:443 "GET /scanners/1/agents/79821599 HTTP/1.1" 200 None
+2023-01-28 11:43:55,532 - MainThread - _request  - DEBUG    Request-UUID 1a6a3b0473d0aefb90cce6191a671279 for https://cloud.tenable.com/scanners/1/agents/79821599
+2023-01-28 11:43:55,532 - MainThread - _request  - DEBUG    {"method": "GET", "url": "https://cloud.tenable.com/scanners/1/agents/65830432", "params": {}, "body": {}}
+2023-01-28 11:43:59,583 - MainThread - _make_request  - DEBUG    https://cloud.tenable.com:443 "GET /scanners/1/agents/65830432 HTTP/1.1" 200 None
+2023-01-28 11:43:59,584 - MainThread - _request  - DEBUG    Request-UUID 04189a885e1c335a089174f46abeb1ab for https://cloud.tenable.com/scanners/1/agents/65830432
+2023-01-28 11:43:59,584 - MainThread - _request  - DEBUG    {"method": "GET", "url": "https://cloud.tenable.com/scanners/1/agents/103918066", "params": {}, "body": {}}
+2023-01-28 11:44:03,621 - MainThread - _make_request  - DEBUG    https://cloud.tenable.com:443 "GET /scanners/1/agents/103918066 HTTP/1.1" 200 None
+2023-01-28 11:44:03,622 - MainThread - _request  - DEBUG    Request-UUID 437ab8ed732b1e56742e626535ca2d6b for https://cloud.tenable.com/scanners/1/agents/103918066
+2023-01-28 11:44:03,622 - MainThread - _request  - DEBUG    {"method": "GET", "url": "https://cloud.tenable.com/scanners/1/agents/103918077", "params": {}, "body": {}}
+2023-01-28 11:44:07,619 - MainThread - _make_request  - DEBUG    https://cloud.tenable.com:443 "GET /scanners/1/agents/103918077 HTTP/1.1" 200 None
+2023-01-28 11:44:07,620 - MainThread - _request  - DEBUG    Request-UUID 12e126fea8f1511d0facaace829408d1 for https://cloud.tenable.com/scanners/1/agents/103918077
+2023-01-28 11:44:07,620 - MainThread - _request  - DEBUG    {"method": "GET", "url": "https://cloud.tenable.com/scanners/1/agents/103994793", "params": {}, "body": {}}
+2023-01-28 11:44:11,518 - MainThread - _make_request  - DEBUG    https://cloud.tenable.com:443 "GET /scanners/1/agents/103994793 HTTP/1.1" 200 None
+2023-01-28 11:44:11,519 - MainThread - _request  - DEBUG    Request-UUID ad80902fec90a6bcc7d8d1af1ae05b1b for https://cloud.tenable.com/scanners/1/agents/103994793
+2023-01-28 11:44:11,520 - MainThread - _request  - DEBUG    {"method": "GET", "url": "https://cloud.tenable.com/scanners/1/agents/57109413", "params": {}, "body": {}}
+2023-01-28 11:44:15,602 - MainThread - _make_request  - DEBUG    https://cloud.tenable.com:443 "GET /scanners/1/agents/57109413 HTTP/1.1" 200 None
+2023-01-28 11:44:15,603 - MainThread - _request  - DEBUG    Request-UUID 3c1c0ea6c8e64b5355c386678d7f882a for https://cloud.tenable.com/scanners/1/agents/57109413
+2023-01-28 11:44:15,604 - MainThread - _request  - DEBUG    {"method": "GET", "url": "https://cloud.tenable.com/scanners/1/agents/82219055", "params": {}, "body": {}}
+2023-01-28 11:44:19,521 - MainThread - _make_request  - DEBUG    https://cloud.tenable.com:443 "GET /scanners/1/agents/82219055 HTTP/1.1" 200 None
+2023-01-28 11:44:19,522 - MainThread - _request  - DEBUG    Request-UUID 16e86f0ebb54b3d314d50d5a4abae86d for https://cloud.tenable.com/scanners/1/agents/82219055
+2023-01-28 11:44:19,522 - MainThread - _request  - DEBUG    {"method": "GET", "url": "https://cloud.tenable.com/scanners/1/agents/58426946", "params": {}, "body": {}}
+2023-01-28 11:44:23,590 - MainThread - _make_request  - DEBUG    https://cloud.tenable.com:443 "GET /scanners/1/agents/58426946 HTTP/1.1" 200 None
+2023-01-28 11:44:23,591 - MainThread - _request  - DEBUG    Request-UUID 908536579ca03f90b23190a2c0aadf58 for https://cloud.tenable.com/scanners/1/agents/58426946
+2023-01-28 11:44:23,592 - MainThread - _request  - DEBUG    {"method": "GET", "url": "https://cloud.tenable.com/scanners/1/agents/79822928", "params": {}, "body": {}}
+2023-01-28 11:44:27,583 - MainThread - _make_request  - DEBUG    https://cloud.tenable.com:443 "GET /scanners/1/agents/79822928 HTTP/1.1" 200 None
+2023-01-28 11:44:27,584 - MainThread - _request  - DEBUG    Request-UUID 57d0d21c2c00526000820bee80514763 for https://cloud.tenable.com/scanners/1/agents/79822928
+2023-01-28 11:44:27,585 - MainThread - _request  - DEBUG    {"method": "GET", "url": "https://cloud.tenable.com/scanners/1/agents/79729190", "params": {}, "body": {}}
+2023-01-28 11:44:31,577 - MainThread - _make_request  - DEBUG    https://cloud.tenable.com:443 "GET /scanners/1/agents/79729190 HTTP/1.1" 200 None
+2023-01-28 11:44:31,578 - MainThread - _request  - DEBUG    Request-UUID 0b64fde0e39be0bb43fccc43bb8f650e for https://cloud.tenable.com/scanners/1/agents/79729190
+2023-01-28 11:44:31,579 - MainThread - _request  - DEBUG    {"method": "GET", "url": "https://cloud.tenable.com/scanners/1/agents/94172383", "params": {}, "body": {}}
+2023-01-28 11:44:35,571 - MainThread - _make_request  - DEBUG    https://cloud.tenable.com:443 "GET /scanners/1/agents/94172383 HTTP/1.1" 200 None
+2023-01-28 11:44:35,572 - MainThread - _request  - DEBUG    Request-UUID a169f298e738b7d442f1b75615dc9772 for https://cloud.tenable.com/scanners/1/agents/94172383
+2023-01-28 11:44:35,572 - MainThread - _request  - DEBUG    {"method": "GET", "url": "https://cloud.tenable.com/scanners/1/agents/103918080", "params": {}, "body": {}}
+2023-01-28 11:44:39,567 - MainThread - _make_request  - DEBUG    https://cloud.tenable.com:443 "GET /scanners/1/agents/103918080 HTTP/1.1" 200 None
+2023-01-28 11:44:39,568 - MainThread - _request  - DEBUG    Request-UUID c516860c137e11449f71b2b3d76353f3 for https://cloud.tenable.com/scanners/1/agents/103918080
+2023-01-28 11:44:39,568 - MainThread - _request  - DEBUG    {"method": "GET", "url": "https://cloud.tenable.com/scanners/1/agents/74360387", "params": {}, "body": {}}
+2023-01-28 11:44:43,560 - MainThread - _make_request  - DEBUG    https://cloud.tenable.com:443 "GET /scanners/1/agents/74360387 HTTP/1.1" 200 None
+2023-01-28 11:44:43,561 - MainThread - _request  - DEBUG    Request-UUID cc47aadafdd95b7dd2a73422ce11b416 for https://cloud.tenable.com/scanners/1/agents/74360387
+2023-01-28 11:44:43,561 - MainThread - _request  - DEBUG    {"method": "GET", "url": "https://cloud.tenable.com/scanners/1/agents/82215545", "params": {}, "body": {}}
+2023-01-28 11:44:47,622 - MainThread - _make_request  - DEBUG    https://cloud.tenable.com:443 "GET /scanners/1/agents/82215545 HTTP/1.1" 200 None
+2023-01-28 11:44:47,623 - MainThread - _request  - DEBUG    Request-UUID 4dcd79dc2ccf55389024ea8418bb8d36 for https://cloud.tenable.com/scanners/1/agents/82215545
+2023-01-28 11:44:47,623 - MainThread - _request  - DEBUG    {"method": "GET", "url": "https://cloud.tenable.com/scanners/1/agents/82227877", "params": {}, "body": {}}
+2023-01-28 11:44:51,579 - MainThread - _make_request  - DEBUG    https://cloud.tenable.com:443 "GET /scanners/1/agents/82227877 HTTP/1.1" 200 None
+2023-01-28 11:44:51,580 - MainThread - _request  - DEBUG    Request-UUID dab540417d9de5682f836bf49bb37570 for https://cloud.tenable.com/scanners/1/agents/82227877
+2023-01-28 11:44:51,581 - MainThread - _request  - DEBUG    {"method": "GET", "url": "https://cloud.tenable.com/scanners/1/agents/82382639", "params": {}, "body": {}}
+2023-01-28 11:44:55,637 - MainThread - _make_request  - DEBUG    https://cloud.tenable.com:443 "GET /scanners/1/agents/82382639 HTTP/1.1" 200 None
+2023-01-28 11:44:55,638 - MainThread - _request  - DEBUG    Request-UUID 8dafc575189b53c7fca8192a8c422b14 for https://cloud.tenable.com/scanners/1/agents/82382639
+2023-01-28 11:44:55,639 - MainThread - _request  - DEBUG    {"method": "GET", "url": "https://cloud.tenable.com/scanners/1/agents/96092083", "params": {}, "body": {}}
+2023-01-28 11:44:59,630 - MainThread - _make_request  - DEBUG    https://cloud.tenable.com:443 "GET /scanners/1/agents/96092083 HTTP/1.1" 200 None
+2023-01-28 11:44:59,631 - MainThread - _request  - DEBUG    Request-UUID d7fad457df403e6ee7d77be78f3f5590 for https://cloud.tenable.com/scanners/1/agents/96092083
+2023-01-28 11:44:59,631 - MainThread - _request  - DEBUG    {"method": "GET", "url": "https://cloud.tenable.com/scanners/1/agents/103235759", "params": {}, "body": {}}
+2023-01-28 11:45:03,729 - MainThread - _make_request  - DEBUG    https://cloud.tenable.com:443 "GET /scanners/1/agents/103235759 HTTP/1.1" 200 None
+2023-01-28 11:45:03,730 - MainThread - _request  - DEBUG    Request-UUID 5b243b89fb848e9639b801437870d75a for https://cloud.tenable.com/scanners/1/agents/103235759
+2023-01-28 11:45:03,730 - MainThread - _request  - DEBUG    {"method": "GET", "url": "https://cloud.tenable.com/scanners/1/agents/103918069", "params": {}, "body": {}}
+2023-01-28 11:45:07,534 - MainThread - _make_request  - DEBUG    https://cloud.tenable.com:443 "GET /scanners/1/agents/103918069 HTTP/1.1" 200 None
+2023-01-28 11:45:07,535 - MainThread - _request  - DEBUG    Request-UUID 482e184f7205630bc150709014fb6f99 for https://cloud.tenable.com/scanners/1/agents/103918069
+2023-01-28 11:45:07,536 - MainThread - _request  - DEBUG    {"method": "GET", "url": "https://cloud.tenable.com/scanners/1/agents/103926055", "params": {}, "body": {}}
+2023-01-28 11:45:11,921 - MainThread - _make_request  - DEBUG    https://cloud.tenable.com:443 "GET /scanners/1/agents/103926055 HTTP/1.1" 200 None
+2023-01-28 11:45:11,922 - MainThread - _request  - DEBUG    Request-UUID 401bf8990f23341ee6ea8bf14e1f0b64 for https://cloud.tenable.com/scanners/1/agents/103926055
+2023-01-28 12:02:55,949 - MainThread - <module>  - DEBUG    Logging is configured - Log Level 10 , Log File: /Users/ninja/github/tenable.io-autoscan/logs/log.log
+2023-01-28 12:04:06,101 - MainThread - <module>  - DEBUG    Logging is configured - Log Level 10 , Log File: /Users/ninja/github/tenable.io-autoscan/logs/log.log

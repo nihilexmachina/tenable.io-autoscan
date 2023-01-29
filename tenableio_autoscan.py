@@ -33,7 +33,7 @@ list_never_scanned = []
 list_scanned = []
 agent_count = None
 key = 'last_scanned'
-target_group = XXXXXX #REQUIRED! Group ID that contains not scanned agents.
+#target_group = XXXXXX #REQUIRED! Group ID that contains not scanned agents.
 
 #############
 # Functions #
