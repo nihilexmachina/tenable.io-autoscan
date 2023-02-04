@@ -37,7 +37,7 @@ list_never_scanned = []
 list_scanned = []
 agent_count = None
 key = 'last_scanned'
-target_group = XXXXXX #REQUIRED! Group ID that contains not scanned agents.
+target_group = 265114 #REQUIRED! Group ID that contains not scanned agents.
 
 #############
 # Functions #
@@ -108,28 +108,6 @@ def delete_agent():
 
     except:
         sys.exit("An error has ocurred attempting to delete Agents. Exiting...")
-
-
-def configure_logger(log_level):
-    # Create a logger and set the log level
-    logger = logging.getLogger(__name__)
-    logger.setLevel(log_level)
-
-    # Create a file handler and set the log level and file size limit
-    handler = logging.handlers.RotatingFileHandler(
-        "logfile.log", maxBytes=100 * 1024 * 1024, backupCount=5)
-    handler.setLevel(logging.DEBUG)
-
-    # Create a formatter and add it to the handler
-    formatter = logging.Formatter(
-        '%(asctime)s - %(name)s - %(levelname)s - %(message)s')
-    handler.setFormatter(formatter)
-
-    # Add the handler to the logger
-    logger.addHandler(handler)
-
-    return logger
-
 
 def setup_logging(log_level):
     logging.basicConfig(
