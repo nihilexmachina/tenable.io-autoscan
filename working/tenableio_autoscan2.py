@@ -27,6 +27,7 @@ import sys
 #load Logging
 import logging.handlers
 import logging
+import os
 
 ########
 # Vars #
@@ -38,8 +39,8 @@ list_never_scanned = []
 list_scanned = []
 agent_count = None
 key = 'last_scanned'
-target_group = 265114 #REQUIRED! Group ID that contains not scanned agents.
-
+#target_group = 265114 #REQUIRED! Group ID that contains not scanned agents.
+target_group = int(os.getenv('TARGET_GROUP'))
 #############
 # Functions #
 #############
@@ -109,10 +110,15 @@ def delete_agent():
     except:
         sys.exit("An error has ocurred attempting to delete Agents. Exiting...")
 
-def setup_logging(log_level):
+def setup_logging(log_level, mask=False): #change to false to not mask the log entries or true to mask
+    if mask:
+        format = '%(asctime)s %(levelname)s [MASKED]'
+    else:
+        format = '%(asctime)s %(levelname)s %(message)s'
+
     logging.basicConfig(
         level=log_level,
-        format='%(asctime)s %(levelname)s %(message)s',
+        format=format,
         handlers=[
             logging.FileHandler("script.log"),
             logging.StreamHandler()
