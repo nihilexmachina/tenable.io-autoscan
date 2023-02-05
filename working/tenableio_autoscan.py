@@ -14,6 +14,7 @@
 ########
 # Lib  #
 ########
+
 #load dotenv lib
 from dotenv import load_dotenv
 load_dotenv() #Makes system environment variables available to the script. Needed in [1]. Else, use [2]
@@ -37,7 +38,7 @@ list_never_scanned = []
 list_scanned = []
 agent_count = None
 key = 'last_scanned'
-target_group = 265114 #REQUIRED! Group ID that contains not scanned agents.
+target_group = XXXXXX #REQUIRED! Group ID that contains not scanned agents.
 
 #############
 # Functions #
@@ -76,7 +77,6 @@ def add_agent():
 
     except:
         sys.exit("An error has ocurred attempting to add new Agents. Exiting...")
-
 
 def delete_agent():
     # If an agent belongs to group "Unscanned" and key last_scanned exists, remove agent from group
@@ -118,7 +118,6 @@ def setup_logging(log_level):
             logging.StreamHandler()
         ])
 
-
 def main():
     parser = argparse.ArgumentParser()
 
@@ -145,5 +144,8 @@ def main():
     else:
         pass
 
+########
+# main #
+########
 
 main()
