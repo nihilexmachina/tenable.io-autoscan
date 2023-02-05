@@ -1,4 +1,4 @@
 tenableio_autoscan2.py has a masking option and uses a .env for the TIO_ACCESS_KEY and TIO_SECRET_KEY and the target_group
 there is a sample .env file with the formatting needed
 a log file script.log will be created in the same directory
-this will allow the script to be updated and pulled down by anyone without messing up the usage, provided they use the .env 
+this will allow the script to be updated and pulled down by anyone without messing up the usage, aprovided they use the .env 
