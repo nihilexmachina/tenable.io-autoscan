@@ -1,0 +1,3 @@
+#ignore these things on commits
+.env
+script.log
