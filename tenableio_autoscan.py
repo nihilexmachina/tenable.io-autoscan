@@ -1,18 +1,18 @@
 #!/usr/bin/python3
 
-#v0.5
+# v0.6
 
 ############
-#To-do List#
+# To-do List#
 ############
 
-#Task;Status;Date;Validated?
-#Initial build;Done;01-12-2021;Y
-#Add argument-based selector;Done;02-12-2021;Y
-#Basic error handling;Done;03-12-2021;Y
-#Additional If logic;Done;10-12-2021;Y
-#Logging capabilities;Done;02-03-2023;Y
-#Added username display;Done;02-12-2023;Y
+# Task;Status;Date;Validated?
+# Initial build;Done;01-12-2021;Y
+# Add argument-based selector;Done;02-12-2021;Y
+# Basic error handling;Done;03-12-2021;Y
+# Additional If logic;Done;10-12-2021;Y
+# Logging capabilities;Done;02-03-2023;Y
+# Added username display;Done;02-12-2023;Y
 
 ########
 # Lib  #
@@ -22,26 +22,30 @@
 from dotenv import load_dotenv
 load_dotenv() #Makes system environment variables available to the script. Needed in [1]. Else, use [2]
 
-#load argparse lib
+# load argparse lib
 import argparse
 
-#load tenable.io lib https://github.com/tenable/pyTenable
+# load tenable.io lib https://github.com/tenable/pyTenable
 from tenable.io import TenableIO
 
-#load sys module
+# load sys module
 import sys
+import os
 
-#load Logging
+# load Logging
 import logging.handlers
 import logging
-import os
+
+# load dotenv lib
+# Makes system environment variables available to the script. Needed in [1]. Else, use [2]
+load_dotenv()
 
 ########
 # Vars #
 ########
 
-tio = TenableIO() # [1] Grabs API Keys automatically from env
-#tio = TenableIO('TIO_ACCESS_KEY', 'TIO_SECRET_KEY') #[2]
+tio = TenableIO()  # [1] Grabs API Keys automatically from env
+# tio = TenableIO('TIO_ACCESS_KEY', 'TIO_SECRET_KEY') #[2]
 full_list = []
 list_never_scanned = []
 list_scanned = []
@@ -97,7 +101,19 @@ def delete_agent():
     except:
         sys.exit("An error has occurred attempting to delete Agents. Exiting...")
 
-def setup_logging(log_level, mask=False): #change to false to not mask the log entries or true to mask
+
+def list_agents():
+    print("Logged in as: ", tio.users.list()[0]['username'])
+    print("Listing Agents in group", target_group, "...")
+    try:
+        for agent in tio.agents.list(('groups', 'eq', '%s' % target_group)):
+            print("Agent ID:", agent['id'], "| Agent Name:", agent['name'])
+    except:
+        sys.exit("An error has occurred attempting to list Agents. Exiting...")
+
+
+# change to false to not mask the log entries or true to mask
+def setup_logging(log_level, mask=False):
     if mask:
         format = '%(asctime)s %(levelname)s [MASKED]'
     else:
@@ -119,6 +135,8 @@ def main():
                        help='Adds Nessus Agents to group for scanning', const=add_agent)
     group.add_argument('--delete', action='store_const',
                        help='Deletes Nessus Agents from group if already scanned', const=delete_agent)
+    group.add_argument('--list', action='store_const',
+                       help='Lists Nessus Agents in target group', const=list_agents)
     parser.add_argument('--log', choices=['debug', 'info', 'warning', 'error', 'critical'],
                         default='info', help='Log level')
 
@@ -134,6 +152,8 @@ def main():
         add_agent()
     elif args.delete:
         delete_agent()
+    elif args.list:
+        list_agents()
     else:
         pass
 
@@ -141,4 +161,6 @@ def main():
 # main #
 ########
 
-main()
+
+if __name__ == "__main__":
+    main()
