@@ -1,15 +1,18 @@
 #!/usr/bin/python3
 
 #v0.5
+
 ############
 #To-do List#
 ############
+
 #Task;Status;Date;Validated?
 #Initial build;Done;01-12-2021;Y
 #Add argument-based selector;Done;02-12-2021;Y
 #Basic error handling;Done;03-12-2021;Y
 #Additional If logic;Done;10-12-2021;Y
 #Logging capabilities;Done;02-03-2023;Y
+#Added username display;Done;02-12-2023;Y
 
 ########
 # Lib  #
@@ -18,12 +21,16 @@
 #load dotenv lib
 from dotenv import load_dotenv
 load_dotenv() #Makes system environment variables available to the script. Needed in [1]. Else, use [2]
+
 #load argparse lib
 import argparse
+
 #load tenable.io lib https://github.com/tenable/pyTenable
 from tenable.io import TenableIO
+
 #load sys module
 import sys
+
 #load Logging
 import logging.handlers
 import logging
@@ -32,6 +39,7 @@ import os
 ########
 # Vars #
 ########
+
 tio = TenableIO() # [1] Grabs API Keys automatically from env
 #tio = TenableIO('TIO_ACCESS_KEY', 'TIO_SECRET_KEY') #[2]
 full_list = []
@@ -40,11 +48,13 @@ list_scanned = []
 agent_count = None
 key = 'last_scanned'
 target_group = int(os.getenv('TARGET_GROUP'))
+
 #############
 # Functions #
 #############
 
 def add_agent():
+    print("Logged in as: ", tio.users.list()[0]['username'])
     print("Searching for Agents that never got scanned...")
     try:
         for agent in tio.agents.list(('groups', 'neq', '%s' % target_group)):
@@ -67,6 +77,7 @@ def add_agent():
         sys.exit("An error has occurred attempting to add new Agents. Exiting...")
 
 def delete_agent():
+    print("Logged in as: ", tio.users.list()[0]['username'])
     print("Searching for Agents that got scanned...")
     try:
         for agent in tio.agents.list(('groups', 'eq', '%s' % target_group)):
