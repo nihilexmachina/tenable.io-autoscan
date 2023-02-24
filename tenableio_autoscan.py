@@ -36,10 +36,6 @@ import os
 import logging.handlers
 import logging
 
-# load dotenv lib
-# Makes system environment variables available to the script. Needed in [1]. Else, use [2]
-load_dotenv()
-
 ########
 # Vars #
 ########
@@ -56,6 +52,7 @@ target_group = int(os.getenv('TARGET_GROUP'))
 #############
 # Functions #
 #############
+
 
 def add_agent():
     print("Logged in as: ", tio.users.list()[0]['username'])
@@ -79,6 +76,7 @@ def add_agent():
             tio.agent_groups.add_agent(target_group, x['id'])
     except:
         sys.exit("An error has occurred attempting to add new Agents. Exiting...")
+
 
 def delete_agent():
     print("Logged in as: ", tio.users.list()[0]['username'])
@@ -126,6 +124,7 @@ def setup_logging(log_level, mask=False):
             logging.FileHandler("script.log"),
             logging.StreamHandler()
         ])
+
 
 def main():
     parser = argparse.ArgumentParser()
