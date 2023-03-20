@@ -39,5 +39,5 @@ python3 tenableio_autoscan.py --delete --log error
 ### Terms and Conditions of Usage
 Please, refer to the LICENSE contained in this repository for further information.
 
-### To Do
-<a href="https://www.buymeacoffee.com/mixedup4x4W" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a>
+### Distinguished Contribuitors
+[mixedup4x4](https://github.com/mixedup4x4) [☕](https://www.buymeacoffee.com/mixedup4x4W)
