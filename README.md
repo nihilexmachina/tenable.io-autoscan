@@ -10,7 +10,7 @@ The first option, will check the Last Scanned status of every asset in your Tena
 ##### Delete
 The second option will check the Last Scanned status of every asset, but this time only those that belong to your Unscanned group. If the script detects a host that has already been scanned, it will pull the host out of the \[Unscanned\] group.  
 The joy behind this script is that allows Tenable.io administrators to make sure that every new agent provisioned to the console will be scanned. For this automation to happen, the administrators will require to have a concise schedule plan.
-##### logging
+##### Logging
 There is an option of --log that accepts a flag of 'debug,info,warning,error,critical' -it will log to a script.log file in the same folder the script is ran from
 #### Schedule example
 08:00 Launch script with --add parameter  
@@ -18,12 +18,14 @@ There is an option of --log that accepts a flag of 'debug,info,warning,error,cri
 20:00 Launch script with --delete parameter  
 ### Requirements
 #### Python libraries
+```
 os
 logging
 dotenv  
 argparse  
 tenable.io -> Source: https://github.com/tenable/pyTenable  
 sys
+```
 #### Script parameters
 You **MUST** configure the API keys either through dotenv (as specified in line 29 in the script) OR manually (as specified in line 30 in the script). For more information regarding initial API setup, please refer to the official documentation contained here -> [📖](https://developer.tenable.com/docs/introduction-to-pytenable)  
 You **MUST** configure the target_group variable. Replace the XXXXX with whatever group you want to put the agents that never have been scanned. You can extract the group ID from the browser's URL when you're managing the group that you want to use in Tenable.io.  
