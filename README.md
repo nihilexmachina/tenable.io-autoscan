@@ -10,12 +10,16 @@ The first option, will check the Last Scanned status of every asset in your Tena
 ##### Delete
 The second option will check the Last Scanned status of every asset, but this time only those that belong to your Unscanned group. If the script detects a host that has already been scanned, it will pull the host out of the \[Unscanned\] group.  
 The joy behind this script is that allows Tenable.io administrators to make sure that every new agent provisioned to the console will be scanned. For this automation to happen, the administrators will require to have a concise schedule plan.
+##### logging
+There is an option of --log that accepts a flag of 'debug,info,warning,error,critical' -it will log to a script.log file in the same folder the script is ran from
 #### Schedule example
 08:00 Launch script with --add parameter  
 09:00 Execute a daily scheduled basic agent scan of the Unscanned group (12h scan window)  
 20:00 Launch script with --delete parameter  
 ### Requirements
 #### Python libraries
+os
+logging
 dotenv  
 argparse  
 tenable.io -> Source: https://github.com/tenable/pyTenable  
@@ -28,11 +32,12 @@ Simply enough, execute one of the following:
 ```
 python3 tenableio_autoscan.py --add
 python3 tenableio_autoscan.py --delete
+python3 tenableio_autoscan.py --add --log error
+python3 tenableio_autoscan.py --delete --log error
 ```
-  
+
 ### Terms and Conditions of Usage
 Please, refer to the LICENSE contained in this repository for further information.
-  
+
 ### To Do
-Add better logging capabilities
-Add a requirements.txt
+<a href="https://www.buymeacoffee.com/mixedup4x4W" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a>

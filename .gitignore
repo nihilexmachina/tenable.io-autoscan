@@ -1,0 +1,4 @@
+#ignore these things on commits
+.env
+script.log
+testing.py
